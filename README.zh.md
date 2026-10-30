@@ -174,8 +174,8 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 HundoHunter 免费且用心制作。如果它帮你拿下了一个 hundo，可以请 Hundo 们吃点小零食！每一份支持都能带来新的主题、功能和新的 Hundo。
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Patreon-soon-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon">
-  <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-soon-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee">
+  <a href="https://www.patreon.com/cw/HundoHunter"><img src="https://img.shields.io/badge/Patreon-%F0%9F%92%96-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
+  <a href="https://buymeacoffee.com/HundoHunter"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-%F0%9F%92%96-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee"></a>
 </p>
 
 ## 📜 法律信息与致谢

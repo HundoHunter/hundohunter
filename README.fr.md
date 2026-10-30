@@ -174,8 +174,8 @@ Tous les raccourcis se modifient dans les paramètres.
 HundoHunter est gratuit et fait avec amour. S'il t'a aidé à décrocher un hundo, tu peux offrir une gourmandise aux Hundos ! Chaque soutien fait venir de nouveaux thèmes, fonctionnalités et Hundos.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Patreon-soon-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon">
-  <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-soon-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee">
+  <a href="https://www.patreon.com/cw/HundoHunter"><img src="https://img.shields.io/badge/Patreon-%F0%9F%92%96-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
+  <a href="https://buymeacoffee.com/HundoHunter"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-%F0%9F%92%96-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee"></a>
 </p>
 
 ## 📜 Mentions légales et crédits

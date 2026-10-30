@@ -174,8 +174,8 @@ Tüm kısayollar ayarlardan değiştirilebilir.
 HundoHunter ücretsiz ve sevgiyle yapıldı. Bir hundoyu bitirmene yardım ettiyse Hundolara bir ikram ısmarlayabilirsin! Her destek yeni temaların, özelliklerin ve Hundoların gelmesini sağlar.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Patreon-soon-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon">
-  <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-soon-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee">
+  <a href="https://www.patreon.com/cw/HundoHunter"><img src="https://img.shields.io/badge/Patreon-%F0%9F%92%96-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
+  <a href="https://buymeacoffee.com/HundoHunter"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-%F0%9F%92%96-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee"></a>
 </p>
 
 ## 📜 Yasal ve emeği geçenler

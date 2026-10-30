@@ -174,8 +174,8 @@
 HundoHunter は無料で、愛情を込めて作られています。hundo 達成の役に立ったなら、ハンドたちにおやつをごちそうしてください！ 応援のおかげで新しいテーマ、機能、そして新しいハンドが生まれます。
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Patreon-soon-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon">
-  <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-soon-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee">
+  <a href="https://www.patreon.com/cw/HundoHunter"><img src="https://img.shields.io/badge/Patreon-%F0%9F%92%96-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
+  <a href="https://buymeacoffee.com/HundoHunter"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-%F0%9F%92%96-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee"></a>
 </p>
 
 ## 📜 法的情報とクレジット
