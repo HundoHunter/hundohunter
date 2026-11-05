@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/download-v3.1.0-ff7aa8?style=for-the-badge&logo=windows&logoColor=white" alt="download"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3ce0d0?style=for-the-badge" alt="Windows 10 | 11">
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/download-v4.0.0-ff7aa8?style=for-the-badge" alt="download"></a>
+  <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-achievements-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/languages-8-b48cff?style=for-the-badge" alt="8">
 </p>
@@ -119,7 +119,7 @@ Every achievement gets a tier based on how many players have unlocked it, and ea
 
 Finish a game at 100% for a **+50 bonus**. Climb the ranks: Rookie → Bronze Hunter → Silver Hunter → Gold Hunter → Sapphire Master → Diamond Master → **Legend**.
 
-## 🎨 20 themes (and a few secrets)
+## 🎨 26 themes (and a few secrets)
 
 Most themes are animated. The Hundos live in **Neko**, **Moonlight**, **Neon Rhythm** and **Gothic Princess**, and they've got mascot friends too. You can even set **your own background image**, together with a theme or on its own.
 
@@ -131,8 +131,10 @@ Most themes are animated. The Hundos live in **Neko**, **Moonlight**, **Neon Rhy
 
 ## 📥 Download & setup
 
-1. Download **HundoHunter.zip** from the [latest release](../../releases/latest) and unzip it anywhere.
+1. 🪟 **Windows:** Download **HundoHunter.zip** from the [latest release](../../releases/latest) and unzip it anywhere.
 2. Run `HundoHunter.exe`. Nothing else to install: it's a single file with .NET included.<br>*Windows may say "Windows protected your PC" because the app isn't signed. Click **More info → Run anyway**.*
+   - 🐧 **Linux:** download `HundoHunter-4.0.0-linux-x64.tar.gz`, extract it and run `./install.sh` (adds HundoHunter to your app menu). Works best in an X11 session; on Wayland, hotkeys and always-on-top depend on your desktop.
+   - 🍎 **macOS:** download the zip for your Mac (`AppleSilicon` for M1–M4, `Intel` for older Macs), unzip it and move `HundoHunter.app` to Applications. The app isn't signed, so the first time right-click it and choose **Open**.
 3. Get a free **Steam Web API key** at <https://steamcommunity.com/dev/apikey> (any domain name works, e.g. `localhost`) and paste it into the settings.
 4. Add your account: paste your Steam profile link, custom URL name or 17-digit Steam ID.
 5. *(Optional)* Add a **Google Gemini** (free tier) or **OpenAI** key for missable detection and guide translation.
@@ -152,7 +154,7 @@ All hotkeys can be changed in the settings.
 
 ## 🔒 Privacy
 
-- API keys are encrypted for your Windows account only (Windows DPAPI).
+- API keys are encrypted for your account only (Windows DPAPI on Windows, a private key file only you can read on Linux and macOS).
 - Steam's local stats files are only **read**, never changed.
 - Your background image stays on your computer; only its location is saved.
 - No telemetry. HundoHunter only talks to Steam, the AI service you choose and the translation service.

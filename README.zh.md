@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v3.1.0-ff7aa8?style=for-the-badge&logo=windows&logoColor=white" alt="下载"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3ce0d0?style=for-the-badge" alt="Windows 10 | 11">
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v4.0.0-ff7aa8?style=for-the-badge" alt="下载"></a>
+  <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-%E6%88%90%E5%B0%B1-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-8-b48cff?style=for-the-badge" alt="8">
 </p>
@@ -119,7 +119,7 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 
 把一款游戏打到 100% 可获得 **+50 奖励分**。一路晋级：新手 → 铜猎人 → 银猎人 → 金猎人 → 蓝宝石大师 → 钻石大师 → **传奇**。
 
-## 🎨 20 个主题（还有几个秘密主题）
+## 🎨 26 个主题（还有几个秘密主题）
 
 大多数主题都是动态的。Hundo 们住在 **猫娘**、**月光**、**霓虹节拍** 和 **哥特公主** 主题里，她们还有吉祥物朋友。你甚至可以设置**自己的背景图片**，与主题一起显示或单独显示。
 
@@ -131,8 +131,10 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 
 ## 📥 下载与设置
 
-1. 从[最新版本](../../releases/latest)下载 **HundoHunter.zip**，解压到任意位置。
+1. 🪟 **Windows:** 从[最新版本](../../releases/latest)下载 **HundoHunter.zip**，解压到任意位置。
 2. 运行 `HundoHunter.exe`。无需安装其他东西：它是一个内置 .NET 的单文件。<br>*由于应用未签名，Windows 可能会提示“Windows 已保护你的电脑”。点击 **更多信息 → 仍要运行**。*
+   - 🐧 **Linux：** 下载 `HundoHunter-4.0.0-linux-x64.tar.gz`，解压后运行 `./install.sh`（会把 HundoHunter 加入应用菜单）。在 X11 会话中效果最佳；在 Wayland 下，快捷键和置顶取决于你的桌面环境。
+   - 🍎 **macOS：** 下载适合你 Mac 的 zip（M1–M4 选 `AppleSilicon`，旧款 Mac 选 `Intel`），解压后把 `HundoHunter.app` 移到“应用程序”。应用未签名，第一次请右键点击并选择 **打开**。
 3. 在 <https://steamcommunity.com/dev/apikey> 免费获取 **Steam Web API 密钥**（域名随便填，例如 `localhost`），并粘贴到设置中。
 4. 添加账号：粘贴你的 Steam 个人资料链接、自定义 URL 名称或 17 位 Steam ID。
 5. *（可选）* 添加 **Google Gemini**（有免费额度）或 **OpenAI** 密钥，用于可错过成就检测和攻略翻译。
@@ -152,7 +154,7 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 
 ## 🔒 隐私
 
-- API 密钥只为你的 Windows 账户加密保存（Windows DPAPI）。
+- API 密钥只为你的账户加密保存（Windows 上使用 Windows DPAPI，Linux 和 macOS 上使用只有你能读取的私有密钥文件）。
 - Steam 的本地统计文件只会被**读取**，绝不会被修改。
 - 背景图片留在你的电脑上，只保存它的位置。
 - 没有遥测。HundoHunter 只与 Steam、你选择的 AI 服务和翻译服务通信。

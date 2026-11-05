@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/descargar-v3.1.0-ff7aa8?style=for-the-badge&logo=windows&logoColor=white" alt="descargar"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3ce0d0?style=for-the-badge" alt="Windows 10 | 11">
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/descargar-v4.0.0-ff7aa8?style=for-the-badge" alt="descargar"></a>
+  <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-logros-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/idiomas-8-b48cff?style=for-the-badge" alt="8">
 </p>
@@ -119,7 +119,7 @@ Cada logro recibe un nivel según cuántos jugadores lo han desbloqueado, y cada
 
 Termina un juego al 100% para un **bonus de +50**. Sube de rango: Novato → Cazador de bronce → Cazador de plata → Cazador de oro → Maestro zafiro → Maestro diamante → **Leyenda**.
 
-## 🎨 20 temas (y algunos secretos)
+## 🎨 26 temas (y algunos secretos)
 
 La mayoría de los temas están animados. Las Hundos viven en **Neko**, **Luz de Luna**, **Ritmo Neón** y **Princesa Gótica**, y también tienen amigos mascota. Incluso puedes poner **tu propia imagen de fondo**, junto con un tema o sola.
 
@@ -131,8 +131,10 @@ La mayoría de los temas están animados. Las Hundos viven en **Neko**, **Luz de
 
 ## 📥 Descarga e instalación
 
-1. Descarga **HundoHunter.zip** desde la [última versión](../../releases/latest) y descomprímelo donde quieras.
+1. 🪟 **Windows:** Descarga **HundoHunter.zip** desde la [última versión](../../releases/latest) y descomprímelo donde quieras.
 2. Ejecuta `HundoHunter.exe`. No hace falta instalar nada más: es un solo archivo con .NET incluido.<br>*Windows puede decir "Windows protegió su PC" porque la app no está firmada. Haz clic en **Más información → Ejecutar de todas formas**.*
+   - 🐧 **Linux:** descarga `HundoHunter-4.0.0-linux-x64.tar.gz`, descomprímelo y ejecuta `./install.sh` (añade HundoHunter al menú de aplicaciones). Funciona mejor en una sesión X11; en Wayland, los atajos y el modo siempre visible dependen de tu escritorio.
+   - 🍎 **macOS:** descarga el zip para tu Mac (`AppleSilicon` para M1–M4, `Intel` para Macs anteriores), descomprímelo y mueve `HundoHunter.app` a Aplicaciones. La app no está firmada: la primera vez, haz clic derecho y elige **Abrir**.
 3. Consigue una **clave de Steam Web API** gratuita en <https://steamcommunity.com/dev/apikey> (sirve cualquier dominio, p. ej. `localhost`) y pégala en los ajustes.
 4. Añade tu cuenta: pega el enlace de tu perfil de Steam, tu URL personalizada o tu Steam ID de 17 dígitos.
 5. *(Opcional)* Añade una clave de **Google Gemini** (tiene nivel gratuito) u **OpenAI** para detectar logros perdibles y traducir guías.
@@ -152,7 +154,7 @@ Todos los atajos se pueden cambiar en los ajustes.
 
 ## 🔒 Privacidad
 
-- Las claves API se cifran solo para tu cuenta de Windows (Windows DPAPI).
+- Las claves API se cifran solo para tu cuenta (Windows DPAPI en Windows; en Linux y macOS, un archivo de clave privado que solo tú puedes leer).
 - Los archivos locales de estadísticas de Steam solo se **leen**, nunca se modifican.
 - Tu imagen de fondo se queda en tu ordenador; solo se guarda su ubicación.
 - Sin telemetría. HundoHunter solo habla con Steam, el servicio de IA que elijas y el servicio de traducción.

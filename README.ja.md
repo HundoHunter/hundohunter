@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-v3.1.0-ff7aa8?style=for-the-badge&logo=windows&logoColor=white" alt="ダウンロード"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3ce0d0?style=for-the-badge" alt="Windows 10 | 11">
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-v4.0.0-ff7aa8?style=for-the-badge" alt="ダウンロード"></a>
+  <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-%E5%AE%9F%E7%B8%BE-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/%E8%A8%80%E8%AA%9E-8-b48cff?style=for-the-badge" alt="8">
 </p>
@@ -119,7 +119,7 @@
 
 ゲームを100%にすると **+50 ボーナス**。ランクを上げよう：ルーキー → ブロンズハンター → シルバーハンター → ゴールドハンター → サファイアマスター → ダイヤモンドマスター → **レジェンド**。
 
-## 🎨 20種類のテーマ（と、いくつかの秘密）
+## 🎨 26種類のテーマ（と、いくつかの秘密）
 
 ほとんどのテーマはアニメーション付き。ハンドたちは **ネコ**、**ムーンライト**、**ネオンリズム**、**ゴシックプリンセス** のテーマに住んでいて、マスコットの友だちもいます。**自分の背景画像**をテーマと一緒に、または単独で設定することもできます。
 
@@ -131,8 +131,10 @@
 
 ## 📥 ダウンロードと設定
 
-1. [最新リリース](../../releases/latest)から **HundoHunter.zip** をダウンロードし、好きな場所に展開します。
+1. 🪟 **Windows:** [最新リリース](../../releases/latest)から **HundoHunter.zip** をダウンロードし、好きな場所に展開します。
 2. `HundoHunter.exe` を実行します。ほかに何もインストールする必要はありません：.NET を含む単一ファイルです。<br>*アプリが署名されていないため、Windows に「Windows によって PC が保護されました」と表示されることがあります。**詳細情報 → 実行** をクリックしてください。*
+   - 🐧 **Linux：** `HundoHunter-4.0.0-linux-x64.tar.gz` をダウンロードして展開し、`./install.sh` を実行します（アプリメニューに HundoHunter が追加されます）。X11 セッションで最もよく動作します。Wayland ではショートカットと最前面表示はデスクトップ環境によります。
+   - 🍎 **macOS：** お使いの Mac に合った zip（M1〜M4 は `AppleSilicon`、それ以前の Mac は `Intel`）をダウンロードして展開し、`HundoHunter.app` をアプリケーションに移動します。アプリは署名されていないため、初回は右クリックして **開く** を選んでください。
 3. <https://steamcommunity.com/dev/apikey> で無料の **Steam Web API キー** を取得し（ドメイン名は何でも OK、例：`localhost`）、設定に貼り付けます。
 4. アカウントを追加：Steam プロフィールのリンク、カスタム URL 名、または17桁の Steam ID を入力します。
 5. *（任意）* 取り逃がし検出と攻略翻訳のために **Google Gemini**（無料枠あり）または **OpenAI** のキーを追加します。
@@ -152,7 +154,7 @@
 
 ## 🔒 プライバシー
 
-- API キーはあなたの Windows アカウント専用に暗号化されます（Windows DPAPI）。
+- API キーはあなたのアカウント専用に暗号化されます（Windows では Windows DPAPI、Linux と macOS ではあなただけが読める専用のキーファイル）。
 - Steam のローカル統計ファイルは**読み取る**だけで、変更しません。
 - 背景画像はあなたの PC に残り、保存されるのは場所だけです。
 - テレメトリーなし。HundoHunter が通信するのは Steam、選んだ AI サービス、翻訳サービスだけです。

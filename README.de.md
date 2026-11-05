@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/download-v3.1.0-ff7aa8?style=for-the-badge&logo=windows&logoColor=white" alt="download"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3ce0d0?style=for-the-badge" alt="Windows 10 | 11">
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/download-v4.0.0-ff7aa8?style=for-the-badge" alt="download"></a>
+  <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-erfolge-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/sprachen-8-b48cff?style=for-the-badge" alt="8">
 </p>
@@ -119,7 +119,7 @@ Jeder Erfolg bekommt eine Stufe, je nachdem wie viele Spieler ihn freigeschaltet
 
 Schließe ein Spiel zu 100 % ab für einen **Bonus von +50**. Steig im Rang auf: Neuling → Bronze-Jäger → Silber-Jäger → Gold-Jäger → Saphir-Meister → Diamant-Meister → **Legende**.
 
-## 🎨 20 Themes (und ein paar geheime)
+## 🎨 26 Themes (und ein paar geheime)
 
 Die meisten Themes sind animiert. Die Hundos wohnen in **Neko**, **Mondschein**, **Neon-Rhythmus** und **Gothic-Prinzessin**, und sie haben auch Maskottchen-Freunde. Du kannst sogar **dein eigenes Hintergrundbild** setzen – zusammen mit einem Theme oder allein.
 
@@ -131,8 +131,10 @@ Die meisten Themes sind animiert. Die Hundos wohnen in **Neko**, **Mondschein**,
 
 ## 📥 Download & Einrichtung
 
-1. Lade **HundoHunter.zip** aus dem [neuesten Release](../../releases/latest) herunter und entpacke es irgendwo.
+1. 🪟 **Windows:** Lade **HundoHunter.zip** aus dem [neuesten Release](../../releases/latest) herunter und entpacke es irgendwo.
 2. Starte `HundoHunter.exe`. Sonst musst du nichts installieren: es ist eine einzelne Datei mit .NET an Bord.<br>*Windows zeigt eventuell „Der Computer wurde durch Windows geschützt“, weil die App nicht signiert ist. Klicke auf **Weitere Informationen → Trotzdem ausführen**.*
+   - 🐧 **Linux:** Lade `HundoHunter-4.0.0-linux-x64.tar.gz` herunter, entpacke es und starte `./install.sh` (fügt HundoHunter zu deinem App-Menü hinzu). Läuft am besten in einer X11-Sitzung; unter Wayland hängen Tastenkürzel und „immer im Vordergrund“ von deinem Desktop ab.
+   - 🍎 **macOS:** Lade die ZIP für deinen Mac herunter (`AppleSilicon` für M1–M4, `Intel` für ältere Macs), entpacke sie und verschiebe `HundoHunter.app` in „Programme“. Die App ist nicht signiert: Beim ersten Mal Rechtsklick und **Öffnen** wählen.
 3. Hol dir einen kostenlosen **Steam-Web-API-Schlüssel** unter <https://steamcommunity.com/dev/apikey> (jeder Domainname geht, z. B. `localhost`) und füge ihn in den Einstellungen ein.
 4. Füge dein Konto hinzu: Link zu deinem Steam-Profil, eigene URL oder 17-stellige Steam-ID.
 5. *(Optional)* Füge einen **Google-Gemini**- (mit kostenlosem Kontingent) oder **OpenAI**-Schlüssel hinzu, für Verpassbar-Erkennung und Guide-Übersetzung.
@@ -152,7 +154,7 @@ Alle Kürzel lassen sich in den Einstellungen ändern.
 
 ## 🔒 Datenschutz
 
-- API-Schlüssel werden nur für dein Windows-Konto verschlüsselt (Windows DPAPI).
+- API-Schlüssel werden nur für dein Konto verschlüsselt (Windows DPAPI unter Windows, unter Linux und macOS eine private Schlüsseldatei, die nur du lesen kannst).
 - Steams lokale Statistikdateien werden nur **gelesen**, nie verändert.
 - Dein Hintergrundbild bleibt auf deinem PC; nur sein Speicherort wird gemerkt.
 - Keine Telemetrie. HundoHunter spricht nur mit Steam, dem gewählten KI-Dienst und dem Übersetzungsdienst.
