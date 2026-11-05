@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/indir-v3.1.0-ff7aa8?style=for-the-badge&logo=windows&logoColor=white" alt="indir"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-3ce0d0?style=for-the-badge" alt="Windows 10 | 11">
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/indir-v4.0.0-ff7aa8?style=for-the-badge" alt="indir"></a>
+  <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-ba%C5%9Far%C4%B1mlar%C4%B1-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/dil-8-b48cff?style=for-the-badge" alt="8">
 </p>
@@ -119,7 +119,7 @@ Her başarım, oyuncuların yüzde kaçının açtığına göre bir kupa seviye
 
 Bir oyunu %100 bitirirsen **+50 bonus**. Rütbe atla: Çaylak → Bronz Avcı → Gümüş Avcı → Altın Avcı → Safir Usta → Elmas Usta → **Efsane**.
 
-## 🎨 20 tema (ve birkaç sır)
+## 🎨 26 tema (ve birkaç sır)
 
 Temaların çoğu hareketli. Hundolar **Kedi Kız**, **Ay Işığı**, **Neon Ritim** ve **Gotik Prenses** temalarında yaşıyor, maskot arkadaşları da var. Hatta **kendi arka plan resmini** de koyabilirsin: temayla birlikte ya da tek başına.
 
@@ -131,8 +131,10 @@ Temaların çoğu hareketli. Hundolar **Kedi Kız**, **Ay Işığı**, **Neon Ri
 
 ## 📥 İndirme ve kurulum
 
-1. [Son sürümden](../../releases/latest) **HundoHunter.zip** dosyasını indir ve istediğin yere çıkar.
+1. 🪟 **Windows:** [Son sürümden](../../releases/latest) **HundoHunter.zip** dosyasını indir ve istediğin yere çıkar.
 2. `HundoHunter.exe`'yi çalıştır. Başka bir şey kurmana gerek yok: .NET dahil her şey tek dosyanın içinde.<br>*Uygulama imzasız olduğu için Windows "Bilgisayarınız korundu" diyebilir. **Ek bilgi → Yine de çalıştır**'a bas.*
+   - 🐧 **Linux:** `HundoHunter-4.0.0-linux-x64.tar.gz` dosyasını indir, çıkar ve `./install.sh` çalıştır (HundoHunter uygulama menüne eklenir). En iyi X11 oturumunda çalışır; Wayland'de kısayollar ve en üstte kalma masaüstüne göre değişir.
+   - 🍎 **macOS:** Mac'ine uygun zip'i indir (M1–M4 için `AppleSilicon`, eski Mac'ler için `Intel`), çıkar ve `HundoHunter.app`'i Uygulamalar'a taşı. Uygulama imzasız olduğu için ilk seferde sağ tıklayıp **Aç**'ı seç.
 3. <https://steamcommunity.com/dev/apikey> adresinden ücretsiz bir **Steam Web API anahtarı** al (alan adına herhangi bir şey yazabilirsin, örn. `localhost`) ve ayarlara yapıştır.
 4. Hesabını ekle: Steam profil bağlantını, özel URL adını ya da 17 haneli Steam ID'ni yaz.
 5. *(İsteğe bağlı)* Kaçırılabilir tespiti ve rehber çevirisi için **Google Gemini** (ücretsiz katmanı var) ya da **OpenAI** anahtarı gir.
@@ -152,7 +154,7 @@ Tüm kısayollar ayarlardan değiştirilebilir.
 
 ## 🔒 Gizlilik
 
-- API anahtarların sadece senin Windows hesabın için şifrelenir (Windows DPAPI).
+- API anahtarların sadece senin hesabın için şifrelenir (Windows'ta Windows DPAPI, Linux ve macOS'ta sadece senin okuyabildiğin özel bir anahtar dosyası).
 - Steam'in yerel istatistik dosyaları sadece **okunur**, asla değiştirilmez.
 - Arka plan resmin bilgisayarında kalır; yalnızca dosyanın yeri kaydedilir.
 - Veri toplanmaz. HundoHunter yalnızca Steam, seçtiğin yapay zekâ servisi ve çeviri servisiyle konuşur.
