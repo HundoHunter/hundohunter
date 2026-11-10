@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v4.0.0-ff7aa8?style=for-the-badge" alt="下载"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v4.1.0-ff7aa8?style=for-the-badge" alt="下载"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-%E6%88%90%E5%B0%B1-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
-  <img src="https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-8-b48cff?style=for-the-badge" alt="8">
+  <img src="https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-12-b48cff?style=for-the-badge" alt="12">
 </p>
 
 <p align="center">
@@ -21,6 +21,29 @@
 
 <p align="center">
   <img src="docs/hundos/group.svg" alt="Hundos" width="640">
+</p>
+
+## 🆕 v4.1 新内容
+
+<p align="center">
+  <img src="docs/img/hub.png" alt="大窗口" width="100%">
+</p>
+
+- **大窗口**（`Ctrl` + `Shift` + `A`）：所有游戏和成就并排显示，带筛选、排序、攻略、笔记和好友。搜索能找到你拥有的每一款游戏，包括从未启动过的，还能容忍拼写错误。
+- **追踪列表**：把任意游戏的成就收集到命名列表中。小 HUD 会显示你选择的列表。
+- **100% 路线图**：AI 把游戏的成就分成合理的阶段，可错过的放在最前，刷刷刷的放到最后。
+- **好友标签页**：每款游戏的排名、“他们有而你没有”、谁在什么时候解锁了什么，好友超过你时还会提醒。
+- **统计与游戏会话总结**：总数、连续天数和月度图表，每次游戏结束后还有一张简短卡片。
+- **分享卡片**：使用主题配色的 1200×630 进度图，附带解锁瞬间的截图。
+- **主播模式**：供 OBS / Streamlabs 使用的透明叠加页面（浏览器来源）。
+- **Discord 状态**、**手柄切换显示**（Xbox、PlayStation、Steam Deck；Windows 和 Linux）以及 **Steam Deck 游戏模式**支持。
+- **隐藏成就的描述**来自 Steam 自己的数据，在你主动查看前仍保持模糊。
+- **一键更新**（经 SHA256 校验），以及会隐藏密钥和 ID 的**报告问题**按钮。
+- **新增 4 种语言**：Português (BR)、Polski、한국어 和 Italiano（共 12 种）。
+- **32 个主题**，其中 8 个是新的：玻璃、深海、星系、日落、雨窗、大理石与金、终端、伊斯坦布尔（博斯普鲁斯）。所有主题都重新绘制，动画更流畅、更轻量。
+
+<p align="center">
+  <img src="docs/img/hub_friends.png" alt="好友标签页" width="100%">
 </p>
 
 ## 💖 认识 Hundo 们
@@ -119,7 +142,7 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 
 把一款游戏打到 100% 可获得 **+50 奖励分**。一路晋级：新手 → 铜猎人 → 银猎人 → 金猎人 → 蓝宝石大师 → 钻石大师 → **传奇**。
 
-## 🎨 26 个主题（还有几个秘密主题）
+## 🎨 32 个主题（还有几个秘密主题）
 
 大多数主题都是动态的。Hundo 们住在 **猫娘**、**月光**、**霓虹节拍** 和 **哥特公主** 主题里，她们还有吉祥物朋友。你甚至可以设置**自己的背景图片**，与主题一起显示或单独显示。
 
@@ -133,8 +156,9 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 
 1. 🪟 **Windows:** 从[最新版本](../../releases/latest)下载 **HundoHunter.zip**，解压到任意位置。
 2. 运行 `HundoHunter.exe`。无需安装其他东西：它是一个内置 .NET 的单文件。<br>*由于应用未签名，Windows 可能会提示“Windows 已保护你的电脑”。点击 **更多信息 → 仍要运行**。*
-   - 🐧 **Linux：** 下载 `HundoHunter-4.0.0-linux-x64.tar.gz`，解压后运行 `./install.sh`（会把 HundoHunter 加入应用菜单）。在 X11 会话中效果最佳；在 Wayland 下，快捷键和置顶取决于你的桌面环境。
+   - 🐧 **Linux：** 下载 `HundoHunter-4.1.0-linux-x64.tar.gz`，解压后运行 `./install.sh`（会把 HundoHunter 加入应用菜单）。在 X11 会话中效果最佳；在 Wayland 下，快捷键和置顶取决于你的桌面环境。
    - 🍎 **macOS：** 下载适合你 Mac 的 zip（M1–M4 选 `AppleSilicon`，旧款 Mac 选 `Intel`），解压后把 `HundoHunter.app` 移到“应用程序”。应用未签名，第一次请右键点击并选择 **打开**。
+   - 🎮 **Steam Deck：** 使用 Linux 版本。在游戏模式下，小 HUD 会显示在游戏上方，并可用手柄切换。Steam Deck 上无法使用大窗口。
 3. 在 <https://steamcommunity.com/dev/apikey> 免费获取 **Steam Web API 密钥**（域名随便填，例如 `localhost`），并粘贴到设置中。
 4. 添加账号：粘贴你的 Steam 个人资料链接、自定义 URL 名称或 17 位 Steam ID。
 5. *（可选）* 添加 **Google Gemini**（有免费额度）或 **OpenAI** 密钥，用于可错过成就检测和攻略翻译。
@@ -148,16 +172,21 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 |---|---|
 | `Ctrl` + `H` | 显示 / 隐藏窗口 |
 | `Ctrl` + `Shift` + `H` | 点击穿透模式（点击会传给游戏） |
-| `Ctrl` + `Alt` + `K` | 紧凑模式 |
+| `Ctrl` + `Shift` + `A` | 打开大窗口 |
+| `Ctrl` + `1` … `4` | 在大窗口中切换标签页 |
 
-所有快捷键都可以在设置中修改。
+所有快捷键都可以在设置中修改。紧凑模式和刷新默认没有快捷键。也可以用手柄显示或隐藏窗口。
 
 ## 🔒 隐私
 
 - API 密钥只为你的账户加密保存（Windows 上使用 Windows DPAPI，Linux 和 macOS 上使用只有你能读取的私有密钥文件）。
 - Steam 的本地统计文件只会被**读取**，绝不会被修改。
 - 背景图片留在你的电脑上，只保存它的位置。
-- 没有遥测。HundoHunter 只与 Steam、你选择的 AI 服务和翻译服务通信。
+- 没有遥测。HundoHunter 只与 Steam、你选择的 AI 服务、翻译服务以及 GitHub（检查更新）通信。
+- 直播叠加页面只能从你自己的电脑（127.0.0.1）打开。
+- 截图和分享卡片保存在你的“图片”文件夹中，不会上传任何内容。
+- Discord 状态是可选的，只通过你电脑上的 Discord 应用发送。
+- 报告问题会打开一个你在发送前可以查看的 GitHub 问题。API 密钥、Steam ID、电子邮件地址和你的用户名都会被隐藏。
 
 ## ❓ 故障排除
 
@@ -184,7 +213,7 @@ HundoHunter 免费且用心制作。如果它帮你拿下了一个 hundo，可�
 
 HundoHunter 是一个独立的粉丝项目，**与 Valve Corporation 或 Steam 无关**。Steam 及 Steam 标志是 Valve Corporation 的商标。游戏和成就数据来自 Steam Web API。
 
-Hundo 们和所有主题图画都是为 HundoHunter 原创的矢量图。“Press Start 2P”字体：CodeMan38，SIL Open Font License 1.1。
+Hundo 们和所有主题图画都是为 HundoHunter 原创的矢量图。“Press Start 2P”字体：CodeMan38，SIL Open Font License 1.1。“Mr Dafoe”字体：Alejandro Paul (Sudtipos)，SIL Open Font License 1.1。图标来自 Pictogrammers 的 Material Design Icons，Apache License 2.0。
 
 <p align="center">
   用 💖 制作： <b>Wavemint</b><br>

@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/download-v4.0.0-ff7aa8?style=for-the-badge" alt="download"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/download-v4.1.0-ff7aa8?style=for-the-badge" alt="download"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-erfolge-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
-  <img src="https://img.shields.io/badge/sprachen-8-b48cff?style=for-the-badge" alt="8">
+  <img src="https://img.shields.io/badge/sprachen-12-b48cff?style=for-the-badge" alt="12">
 </p>
 
 <p align="center">
@@ -21,6 +21,29 @@ Und du jagst nie allein. Darf ich vorstellen: die **Hundos** 💖
 
 <p align="center">
   <img src="docs/hundos/group.svg" alt="Hundos" width="640">
+</p>
+
+## 🆕 Neu in v4.1
+
+<p align="center">
+  <img src="docs/img/hub.png" alt="Das große Fenster" width="100%">
+</p>
+
+- **Das große Fenster** (`Ctrl` + `Shift` + `A`): alle deine Spiele und Erfolge nebeneinander, mit Filtern, Sortierung, Guides, Notizen und Freunden. Die Suche findet jedes Spiel, das du besitzt, auch nie gestartete, und verzeiht Tippfehler.
+- **Trackinglisten**: sammle Erfolge aus beliebigen Spielen in benannten Listen. Das kleine HUD zeigt die Liste, die du auswählst.
+- **100-%-Fahrplan**: Eine KI teilt die Erfolge eines Spiels in sinnvolle Etappen, verpassbare zuerst, Grind zum Schluss.
+- **Freunde-Tab**: eine Rangliste pro Spiel, „sie haben ihn, du nicht“, wer was wann freigeschaltet hat, und ein Hinweis, wenn dich ein Freund überholt.
+- **Statistiken und Sitzungsübersicht**: Summen, Serie und Monatsdiagramm, dazu eine kurze Karte nach jeder Spielsitzung.
+- **Teilen-Karte**: ein 1200×630-Fortschrittsbild in den Farben deines Themes, mit dem Screenshot vom Moment der Freischaltung.
+- **Streamer-Modus**: eine transparente Overlay-Seite für OBS / Streamlabs (Browserquelle).
+- **Discord-Status**, **Ein-/Ausblenden per Controller** (Xbox, PlayStation, Steam Deck; Windows und Linux) und Unterstützung für den **Spielmodus des Steam Deck**.
+- **Beschreibungen versteckter Erfolge** kommen aus Steams eigenen Daten und bleiben verschwommen, bis du sie aufdeckst.
+- **Update mit einem Klick**, per SHA256 geprüft, und ein **Fehler-melden**-Knopf, der deine Schlüssel und IDs verbirgt.
+- **4 neue Sprachen**: Português (BR), Polski, 한국어 und Italiano (insgesamt 12).
+- **32 Themes**, davon 8 neu: Glas, Tiefsee, Galaxie, Sonnenuntergang, Regenfenster, Marmor & Gold, Terminal, Istanbul (Bosporus). Alle Themes wurden neu gezeichnet, die Animationen laufen flüssiger und sparsamer.
+
+<p align="center">
+  <img src="docs/img/hub_friends.png" alt="Freunde-Tab" width="100%">
 </p>
 
 ## 💖 Lerne die Hundos kennen
@@ -119,7 +142,7 @@ Jeder Erfolg bekommt eine Stufe, je nachdem wie viele Spieler ihn freigeschaltet
 
 Schließe ein Spiel zu 100 % ab für einen **Bonus von +50**. Steig im Rang auf: Neuling → Bronze-Jäger → Silber-Jäger → Gold-Jäger → Saphir-Meister → Diamant-Meister → **Legende**.
 
-## 🎨 26 Themes (und ein paar geheime)
+## 🎨 32 Themes (und ein paar geheime)
 
 Die meisten Themes sind animiert. Die Hundos wohnen in **Neko**, **Mondschein**, **Neon-Rhythmus** und **Gothic-Prinzessin**, und sie haben auch Maskottchen-Freunde. Du kannst sogar **dein eigenes Hintergrundbild** setzen – zusammen mit einem Theme oder allein.
 
@@ -133,8 +156,9 @@ Die meisten Themes sind animiert. Die Hundos wohnen in **Neko**, **Mondschein**,
 
 1. 🪟 **Windows:** Lade **HundoHunter.zip** aus dem [neuesten Release](../../releases/latest) herunter und entpacke es irgendwo.
 2. Starte `HundoHunter.exe`. Sonst musst du nichts installieren: es ist eine einzelne Datei mit .NET an Bord.<br>*Windows zeigt eventuell „Der Computer wurde durch Windows geschützt“, weil die App nicht signiert ist. Klicke auf **Weitere Informationen → Trotzdem ausführen**.*
-   - 🐧 **Linux:** Lade `HundoHunter-4.0.0-linux-x64.tar.gz` herunter, entpacke es und starte `./install.sh` (fügt HundoHunter zu deinem App-Menü hinzu). Läuft am besten in einer X11-Sitzung; unter Wayland hängen Tastenkürzel und „immer im Vordergrund“ von deinem Desktop ab.
+   - 🐧 **Linux:** Lade `HundoHunter-4.1.0-linux-x64.tar.gz` herunter, entpacke es und starte `./install.sh` (fügt HundoHunter zu deinem App-Menü hinzu). Läuft am besten in einer X11-Sitzung; unter Wayland hängen Tastenkürzel und „immer im Vordergrund“ von deinem Desktop ab.
    - 🍎 **macOS:** Lade die ZIP für deinen Mac herunter (`AppleSilicon` für M1–M4, `Intel` für ältere Macs), entpacke sie und verschiebe `HundoHunter.app` in „Programme“. Die App ist nicht signiert: Beim ersten Mal Rechtsklick und **Öffnen** wählen.
+   - 🎮 **Steam Deck:** Nutze die Linux-Version. Im Spielmodus wird das kleine HUD über dem Spiel gezeichnet und lässt sich per Controller ein- und ausblenden. Das große Fenster ist auf dem Steam Deck nicht verfügbar.
 3. Hol dir einen kostenlosen **Steam-Web-API-Schlüssel** unter <https://steamcommunity.com/dev/apikey> (jeder Domainname geht, z. B. `localhost`) und füge ihn in den Einstellungen ein.
 4. Füge dein Konto hinzu: Link zu deinem Steam-Profil, eigene URL oder 17-stellige Steam-ID.
 5. *(Optional)* Füge einen **Google-Gemini**- (mit kostenlosem Kontingent) oder **OpenAI**-Schlüssel hinzu, für Verpassbar-Erkennung und Guide-Übersetzung.
@@ -148,16 +172,21 @@ Die meisten Themes sind animiert. Die Hundos wohnen in **Neko**, **Mondschein**,
 |---|---|
 | `Strg` + `H` | Overlay ein- / ausblenden |
 | `Strg` + `Shift` + `H` | Durchklick-Modus (Klicks gehen ans Spiel) |
-| `Strg` + `Alt` + `K` | Kompaktmodus |
+| `Ctrl` + `Shift` + `A` | Großes Fenster öffnen |
+| `Ctrl` + `1` … `4` | Tabs im großen Fenster wechseln |
 
-Alle Kürzel lassen sich in den Einstellungen ändern.
+Alle Kürzel lassen sich in den Einstellungen ändern. Kompaktmodus und Aktualisieren haben standardmäßig keine Taste. Das Overlay lässt sich auch per Controller ein- und ausblenden.
 
 ## 🔒 Datenschutz
 
 - API-Schlüssel werden nur für dein Konto verschlüsselt (Windows DPAPI unter Windows, unter Linux und macOS eine private Schlüsseldatei, die nur du lesen kannst).
 - Steams lokale Statistikdateien werden nur **gelesen**, nie verändert.
 - Dein Hintergrundbild bleibt auf deinem PC; nur sein Speicherort wird gemerkt.
-- Keine Telemetrie. HundoHunter spricht nur mit Steam, dem gewählten KI-Dienst und dem Übersetzungsdienst.
+- Keine Telemetrie. HundoHunter spricht nur mit Steam, dem gewählten KI-Dienst, dem Übersetzungsdienst und GitHub (für die Update-Prüfung).
+- Die Stream-Overlay-Seite lässt sich nur auf deinem eigenen Computer öffnen (127.0.0.1).
+- Screenshots und Teilen-Karten werden in deinem Bilder-Ordner gespeichert; nichts wird hochgeladen.
+- Der Discord-Status ist optional und läuft nur über die Discord-App auf deinem Computer.
+- Die Fehlermeldung öffnet ein GitHub-Issue, das du vor dem Absenden lesen kannst. API-Schlüssel, Steam-IDs, E-Mail-Adressen und dein Benutzername werden unkenntlich gemacht.
 
 ## ❓ Fehlerbehebung
 
@@ -184,7 +213,7 @@ HundoHunter ist kostenlos und mit Liebe gemacht. Wenn es dir zu einem Hundo verh
 
 HundoHunter ist ein unabhängiges Fanprojekt und **nicht mit der Valve Corporation oder Steam verbunden**. Steam und das Steam-Logo sind Marken der Valve Corporation. Spiel- und Erfolgsdaten stammen aus der Steam Web API.
 
-Die Hundos und alle Theme-Grafiken sind originale Vektorzeichnungen für HundoHunter. Schriftart „Press Start 2P“ von CodeMan38, SIL Open Font License 1.1.
+Die Hundos und alle Theme-Grafiken sind originale Vektorzeichnungen für HundoHunter. Schriftart „Press Start 2P“ von CodeMan38, SIL Open Font License 1.1. Schriftart „Mr Dafoe“ von Alejandro Paul (Sudtipos), SIL Open Font License 1.1. Icons aus Material Design Icons von Pictogrammers, Apache License 2.0.
 
 <p align="center">
   Mit 💖 gemacht von <b>Wavemint</b><br>
