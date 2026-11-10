@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-v4.0.0-ff7aa8?style=for-the-badge" alt="ダウンロード"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-v4.1.0-ff7aa8?style=for-the-badge" alt="ダウンロード"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-%E5%AE%9F%E7%B8%BE-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
-  <img src="https://img.shields.io/badge/%E8%A8%80%E8%AA%9E-8-b48cff?style=for-the-badge" alt="8">
+  <img src="https://img.shields.io/badge/%E8%A8%80%E8%AA%9E-12-b48cff?style=for-the-badge" alt="12">
 </p>
 
 <p align="center">
@@ -21,6 +21,29 @@
 
 <p align="center">
   <img src="docs/hundos/group.svg" alt="Hundos" width="640">
+</p>
+
+## 🆕 v4.1 の新機能
+
+<p align="center">
+  <img src="docs/img/hub.png" alt="大きなウィンドウ" width="100%">
+</p>
+
+- **大きなウィンドウ**（`Ctrl` + `Shift` + `A`）：すべてのゲームと実績を並べて表示。フィルター、並べ替え、攻略、メモ、フレンド付き。検索は一度も起動していないものを含め、持っているすべてのゲームを見つけ、タイプミスも許してくれます。
+- **追跡リスト**：好きなゲームの実績を名前付きリストにまとめられます。小さな HUD には選んだリストが表示されます。
+- **100% ロードマップ**：AI がゲームの実績を無理のない段階に分けます。取り逃し注意の実績は最初に、作業系は最後に。
+- **フレンドタブ**：ゲームごとのランキング、「フレンドは持っていて自分は持っていない」実績、誰がいつ何を解除したか。フレンドに抜かれたら通知も。
+- **統計とセッションのまとめ**：合計、連続記録、月別グラフ。プレイを終えるたびに短いカードも表示されます。
+- **シェアカード**：テーマの色で作られる 1200×630 の進捗画像。実績を解除した瞬間のスクリーンショット付き。
+- **配信者モード**：OBS / Streamlabs 用の透過オーバーレイページ（ブラウザソース）。
+- **Discord ステータス**、**コントローラーでの表示切替**（Xbox、PlayStation、Steam Deck／Windows と Linux）、**Steam Deck のゲームモード**に対応。
+- **隠し実績の説明**を Steam 自身のデータから補完。見たいと言うまではぼかしたままです。
+- **ワンクリック更新**（SHA256 で検証）と、キーや ID を隠してくれる**不具合報告**ボタン。
+- **4 つの新言語**：Português (BR)、Polski、한국어、Italiano（合計 12 言語）。
+- **32 種類のテーマ**、うち 8 つが新登場：ガラス、深海、銀河、夕焼け、雨の窓、大理石と金、ターミナル、イスタンブール（ボスポラス）。すべてのテーマを描き直し、アニメーションはより滑らかで軽くなりました。
+
+<p align="center">
+  <img src="docs/img/hub_friends.png" alt="フレンドタブ" width="100%">
 </p>
 
 ## 💖 ハンドたちに会おう
@@ -119,7 +142,7 @@
 
 ゲームを100%にすると **+50 ボーナス**。ランクを上げよう：ルーキー → ブロンズハンター → シルバーハンター → ゴールドハンター → サファイアマスター → ダイヤモンドマスター → **レジェンド**。
 
-## 🎨 26種類のテーマ（と、いくつかの秘密）
+## 🎨 32種類のテーマ（と、いくつかの秘密）
 
 ほとんどのテーマはアニメーション付き。ハンドたちは **ネコ**、**ムーンライト**、**ネオンリズム**、**ゴシックプリンセス** のテーマに住んでいて、マスコットの友だちもいます。**自分の背景画像**をテーマと一緒に、または単独で設定することもできます。
 
@@ -133,8 +156,9 @@
 
 1. 🪟 **Windows:** [最新リリース](../../releases/latest)から **HundoHunter.zip** をダウンロードし、好きな場所に展開します。
 2. `HundoHunter.exe` を実行します。ほかに何もインストールする必要はありません：.NET を含む単一ファイルです。<br>*アプリが署名されていないため、Windows に「Windows によって PC が保護されました」と表示されることがあります。**詳細情報 → 実行** をクリックしてください。*
-   - 🐧 **Linux：** `HundoHunter-4.0.0-linux-x64.tar.gz` をダウンロードして展開し、`./install.sh` を実行します（アプリメニューに HundoHunter が追加されます）。X11 セッションで最もよく動作します。Wayland ではショートカットと最前面表示はデスクトップ環境によります。
+   - 🐧 **Linux：** `HundoHunter-4.1.0-linux-x64.tar.gz` をダウンロードして展開し、`./install.sh` を実行します（アプリメニューに HundoHunter が追加されます）。X11 セッションで最もよく動作します。Wayland ではショートカットと最前面表示はデスクトップ環境によります。
    - 🍎 **macOS：** お使いの Mac に合った zip（M1〜M4 は `AppleSilicon`、それ以前の Mac は `Intel`）をダウンロードして展開し、`HundoHunter.app` をアプリケーションに移動します。アプリは署名されていないため、初回は右クリックして **開く** を選んでください。
+   - 🎮 **Steam Deck：** Linux 版を使ってください。ゲームモードでは小さな HUD がゲームの上に表示され、コントローラーで切り替えられます。大きなウィンドウは Steam Deck では使えません。
 3. <https://steamcommunity.com/dev/apikey> で無料の **Steam Web API キー** を取得し（ドメイン名は何でも OK、例：`localhost`）、設定に貼り付けます。
 4. アカウントを追加：Steam プロフィールのリンク、カスタム URL 名、または17桁の Steam ID を入力します。
 5. *（任意）* 取り逃がし検出と攻略翻訳のために **Google Gemini**（無料枠あり）または **OpenAI** のキーを追加します。
@@ -148,16 +172,21 @@
 |---|---|
 | `Ctrl` + `H` | オーバーレイの表示 / 非表示 |
 | `Ctrl` + `Shift` + `H` | クリック透過モード（クリックがゲームに届く） |
-| `Ctrl` + `Alt` + `K` | コンパクトモード |
+| `Ctrl` + `Shift` + `A` | 大きなウィンドウを開く |
+| `Ctrl` + `1` … `4` | 大きなウィンドウのタブを切り替え |
 
-すべてのショートカットは設定で変更できます。
+すべてのショートカットは設定で変更できます。コンパクトモードと更新には初期設定のキーがありません。コントローラーでもオーバーレイを切り替えられます。
 
 ## 🔒 プライバシー
 
 - API キーはあなたのアカウント専用に暗号化されます（Windows では Windows DPAPI、Linux と macOS ではあなただけが読める専用のキーファイル）。
 - Steam のローカル統計ファイルは**読み取る**だけで、変更しません。
 - 背景画像はあなたの PC に残り、保存されるのは場所だけです。
-- テレメトリーなし。HundoHunter が通信するのは Steam、選んだ AI サービス、翻訳サービスだけです。
+- テレメトリーなし。HundoHunter が通信するのは Steam、選んだ AI サービス、翻訳サービス、GitHub（更新の確認）だけです。
+- 配信用オーバーレイページは自分のパソコン（127.0.0.1）からしか開けません。
+- スクリーンショットとシェアカードは「ピクチャ」フォルダーに保存され、何もアップロードされません。
+- Discord ステータスは任意で、パソコン上の Discord アプリを通してのみ送られます。
+- 不具合報告は送信前に内容を確認できる GitHub の Issue を開きます。API キー、Steam ID、メールアドレス、ユーザー名は伏せられます。
 
 ## ❓ トラブルシューティング
 
@@ -184,7 +213,7 @@ HundoHunter は無料で、愛情を込めて作られています。hundo 達�
 
 HundoHunter は独立したファンプロジェクトであり、**Valve Corporation および Steam とは一切関係ありません**。Steam および Steam ロゴは Valve Corporation の商標です。ゲームと実績のデータは Steam Web API から取得しています。
 
-ハンドたちとすべてのテーマのイラストは、HundoHunter のために描かれたオリジナルのベクター画像です。「Press Start 2P」フォント：CodeMan38、SIL Open Font License 1.1。
+ハンドたちとすべてのテーマのイラストは、HundoHunter のために描かれたオリジナルのベクター画像です。「Press Start 2P」フォント：CodeMan38、SIL Open Font License 1.1。「Mr Dafoe」フォント：Alejandro Paul (Sudtipos)、SIL Open Font License 1.1。アイコン：Pictogrammers の Material Design Icons、Apache License 2.0。
 
 <p align="center">
   💖 を込めて制作： <b>Wavemint</b><br>

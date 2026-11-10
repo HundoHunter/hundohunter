@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/t%C3%A9l%C3%A9charger-v4.0.0-ff7aa8?style=for-the-badge" alt="télécharger"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/t%C3%A9l%C3%A9charger-v4.1.0-ff7aa8?style=for-the-badge" alt="télécharger"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-succ%C3%A8s-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
-  <img src="https://img.shields.io/badge/langues-8-b48cff?style=for-the-badge" alt="8">
+  <img src="https://img.shields.io/badge/langues-12-b48cff?style=for-the-badge" alt="12">
 </p>
 
 <p align="center">
@@ -21,6 +21,29 @@ Et tu ne chasses jamais seul. Voici les **Hundos** 💖
 
 <p align="center">
   <img src="docs/hundos/group.svg" alt="Hundos" width="640">
+</p>
+
+## 🆕 Nouveautés de la v4.1
+
+<p align="center">
+  <img src="docs/img/hub.png" alt="La grande fenêtre" width="100%">
+</p>
+
+- **La grande fenêtre** (`Ctrl` + `Shift` + `A`) : tous tes jeux et succès côte à côte, avec filtres, tri, guides, notes et amis. La recherche trouve chaque jeu que tu possèdes, même ceux jamais lancés, et pardonne les fautes de frappe.
+- **Listes de suivi** : regroupe les succès de n'importe quel jeu dans des listes nommées. Le petit HUD affiche la liste que tu choisis.
+- **Feuille de route 100 %** : l'IA découpe les succès d'un jeu en étapes logiques, les ratables d'abord et le farm à la fin.
+- **Onglet Amis** : un classement par jeu, « ils l'ont, pas toi », qui a débloqué quoi et quand, et une alerte quand un ami te dépasse.
+- **Statistiques et résumé de session** : totaux, série et graphique mensuel, plus une petite carte après chaque session de jeu.
+- **Carte de partage** : une image de progression 1200×630 aux couleurs de ton thème, avec la capture prise au moment du déblocage.
+- **Mode streamer** : une page d'overlay transparente pour OBS / Streamlabs (source Navigateur).
+- **Statut Discord**, **affichage à la manette** (Xbox, PlayStation, Steam Deck ; Windows et Linux) et prise en charge du **mode Jeu du Steam Deck**.
+- **Descriptions des succès cachés** tirées des données de Steam, toujours floutées jusqu'à ce que tu demandes.
+- **Mise à jour en un clic**, vérifiée par SHA256, et un bouton **Signaler un bug** qui masque tes clés et identifiants.
+- **4 nouvelles langues** : Português (BR), Polski, 한국어 et Italiano (12 au total).
+- **32 thèmes**, dont 8 nouveaux : Verre, Océan profond, Galaxie, Coucher de soleil, Vitre de pluie, Marbre et or, Terminal, Istanbul (Bosphore). Tous les thèmes ont été redessinés et les animations sont plus fluides et plus légères.
+
+<p align="center">
+  <img src="docs/img/hub_friends.png" alt="Onglet Amis" width="100%">
 </p>
 
 ## 💖 Fais connaissance avec les Hundos
@@ -119,7 +142,7 @@ Chaque succès reçoit un niveau selon la proportion de joueurs qui l'ont déblo
 
 Termine un jeu à 100 % pour un **bonus de +50**. Grimpe les rangs : Débutant → Chasseur de bronze → Chasseur d'argent → Chasseur d'or → Maître saphir → Maître diamant → **Légende**.
 
-## 🎨 26 thèmes (et quelques secrets)
+## 🎨 32 thèmes (et quelques secrets)
 
 La plupart des thèmes sont animés. Les Hundos vivent dans **Neko**, **Clair de Lune**, **Rythme Néon** et **Princesse Gothique**, et elles ont aussi des amis mascottes. Tu peux même mettre **ta propre image de fond**, avec un thème ou toute seule.
 
@@ -133,8 +156,9 @@ La plupart des thèmes sont animés. Les Hundos vivent dans **Neko**, **Clair de
 
 1. 🪟 **Windows:** Télécharge **HundoHunter.zip** depuis la [dernière version](../../releases/latest) et décompresse-le où tu veux.
 2. Lance `HundoHunter.exe`. Rien d'autre à installer : c'est un seul fichier avec .NET inclus.<br>*Windows peut afficher « Windows a protégé votre ordinateur » car l'appli n'est pas signée. Clique sur **Informations complémentaires → Exécuter quand même**.*
-   - 🐧 **Linux :** télécharge `HundoHunter-4.0.0-linux-x64.tar.gz`, décompresse-le et lance `./install.sh` (ajoute HundoHunter au menu des applications). Fonctionne au mieux dans une session X11 ; sous Wayland, les raccourcis et le mode toujours au premier plan dépendent de ton bureau.
+   - 🐧 **Linux :** télécharge `HundoHunter-4.1.0-linux-x64.tar.gz`, décompresse-le et lance `./install.sh` (ajoute HundoHunter au menu des applications). Fonctionne au mieux dans une session X11 ; sous Wayland, les raccourcis et le mode toujours au premier plan dépendent de ton bureau.
    - 🍎 **macOS :** télécharge le zip pour ton Mac (`AppleSilicon` pour M1–M4, `Intel` pour les Mac plus anciens), décompresse-le et déplace `HundoHunter.app` dans Applications. L'appli n'est pas signée : la première fois, fais un clic droit et choisis **Ouvrir**.
+   - 🎮 **Steam Deck :** utilise la version Linux. En mode Jeu, le petit HUD s'affiche par-dessus le jeu et se montre ou se cache à la manette. La grande fenêtre n'est pas disponible sur Steam Deck.
 3. Obtiens une **clé Steam Web API** gratuite sur <https://steamcommunity.com/dev/apikey> (n'importe quel nom de domaine, par ex. `localhost`) et colle-la dans les paramètres.
 4. Ajoute ton compte : colle le lien de ton profil Steam, ton URL personnalisée ou ton Steam ID à 17 chiffres.
 5. *(Facultatif)* Ajoute une clé **Google Gemini** (offre gratuite) ou **OpenAI** pour la détection des succès ratables et la traduction des guides.
@@ -148,16 +172,21 @@ La plupart des thèmes sont animés. Les Hundos vivent dans **Neko**, **Clair de
 |---|---|
 | `Ctrl` + `H` | Afficher / masquer la fenêtre |
 | `Ctrl` + `Shift` + `H` | Mode clic traversant (les clics vont au jeu) |
-| `Ctrl` + `Alt` + `K` | Mode compact |
+| `Ctrl` + `Shift` + `A` | Ouvrir la grande fenêtre |
+| `Ctrl` + `1` … `4` | Changer d'onglet dans la grande fenêtre |
 
-Tous les raccourcis se modifient dans les paramètres.
+Tous les raccourcis se modifient dans les paramètres. Le mode compact et l'actualisation n'ont pas de touche par défaut. Tu peux aussi afficher ou masquer la fenêtre avec une manette.
 
 ## 🔒 Confidentialité
 
 - Les clés API sont chiffrées pour ton seul compte (Windows DPAPI sous Windows ; sous Linux et macOS, un fichier de clé privé que toi seul peux lire).
 - Les fichiers de statistiques locaux de Steam sont seulement **lus**, jamais modifiés.
 - Ton image de fond reste sur ton ordinateur ; seul son emplacement est enregistré.
-- Aucune télémétrie. HundoHunter ne parle qu'à Steam, au service d'IA choisi et au service de traduction.
+- Aucune télémétrie. HundoHunter ne parle qu'à Steam, au service d'IA que tu choisis, au service de traduction et à GitHub (pour vérifier les mises à jour).
+- La page d'overlay pour le stream ne s'ouvre que depuis ton propre ordinateur (127.0.0.1).
+- Les captures et cartes de partage sont enregistrées dans ton dossier Images ; rien n'est envoyé en ligne.
+- Le statut Discord est facultatif et passe uniquement par l'application Discord de ton ordinateur.
+- Le signalement de bug ouvre un ticket GitHub que tu peux relire avant l'envoi. Les clés API, les identifiants Steam, les adresses e-mail et ton nom d'utilisateur sont masqués.
 
 ## ❓ Dépannage
 
@@ -184,7 +213,7 @@ HundoHunter est gratuit et fait avec amour. S'il t'a aidé à décrocher un hund
 
 HundoHunter est un projet de fan indépendant et **n'est pas affilié à Valve Corporation ni à Steam**. Steam et le logo Steam sont des marques de Valve Corporation. Les données de jeux et de succès proviennent de la Steam Web API.
 
-Les Hundos et toutes les illustrations des thèmes sont des dessins vectoriels originaux créés pour HundoHunter. Police « Press Start 2P » par CodeMan38, SIL Open Font License 1.1.
+Les Hundos et toutes les illustrations des thèmes sont des dessins vectoriels originaux créés pour HundoHunter. Police « Press Start 2P » par CodeMan38, SIL Open Font License 1.1. Police « Mr Dafoe » d'Alejandro Paul (Sudtipos), SIL Open Font License 1.1. Icônes de Material Design Icons par Pictogrammers, Apache License 2.0.
 
 <p align="center">
   Fait avec 💖 par <b>Wavemint</b><br>
