@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/indir-v4.1.0-ff7aa8?style=for-the-badge" alt="indir"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/indir-v4.1.1-ff7aa8?style=for-the-badge" alt="indir"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-ba%C5%9Far%C4%B1mlar%C4%B1-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/dil-12-b48cff?style=for-the-badge" alt="12">
@@ -156,7 +156,7 @@ Temaların çoğu hareketli. Hundolar **Kedi Kız**, **Ay Işığı**, **Neon Ri
 
 1. 🪟 **Windows:** [Son sürümden](../../releases/latest) **HundoHunter.zip** dosyasını indir ve istediğin yere çıkar.
 2. `HundoHunter.exe`'yi çalıştır. Başka bir şey kurmana gerek yok: .NET dahil her şey tek dosyanın içinde.<br>*Uygulama imzasız olduğu için Windows "Bilgisayarınız korundu" diyebilir. **Ek bilgi → Yine de çalıştır**'a bas.*
-   - 🐧 **Linux:** `HundoHunter-4.1.0-linux-x64.tar.gz` dosyasını indir, çıkar ve `./install.sh` çalıştır (HundoHunter uygulama menüne eklenir). En iyi X11 oturumunda çalışır; Wayland'de kısayollar ve en üstte kalma masaüstüne göre değişir.
+   - 🐧 **Linux:** `HundoHunter-4.1.1-linux-x64.tar.gz` dosyasını indir, çıkar ve `./install.sh` çalıştır (HundoHunter uygulama menüne eklenir). En iyi X11 oturumunda çalışır; Wayland'de kısayollar ve en üstte kalma masaüstüne göre değişir.
    - 🍎 **macOS:** Mac'ine uygun zip'i indir (M1–M4 için `AppleSilicon`, eski Mac'ler için `Intel`), çıkar ve `HundoHunter.app`'i Uygulamalar'a taşı. Uygulama imzasız olduğu için ilk seferde sağ tıklayıp **Aç**'ı seç.
    - 🎮 **Steam Deck:** Linux sürümünü kullan. Oyun Modu'nda küçük HUD oyunun üstünde görünür ve kumandayla açılıp kapanır. Büyük pencere Steam Deck'te kullanılamaz.
 3. <https://steamcommunity.com/dev/apikey> adresinden ücretsiz bir **Steam Web API anahtarı** al (alan adına herhangi bir şey yazabilirsin, örn. `localhost`) ve ayarlara yapıştır.

@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/download-v4.1.0-ff7aa8?style=for-the-badge" alt="download"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/download-v4.1.1-ff7aa8?style=for-the-badge" alt="download"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-achievements-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/languages-12-b48cff?style=for-the-badge" alt="12">
@@ -156,7 +156,7 @@ Most themes are animated. The Hundos live in **Neko**, **Moonlight**, **Neon Rhy
 
 1. 🪟 **Windows:** Download **HundoHunter.zip** from the [latest release](../../releases/latest) and unzip it anywhere.
 2. Run `HundoHunter.exe`. Nothing else to install: it's a single file with .NET included.<br>*Windows may say "Windows protected your PC" because the app isn't signed. Click **More info → Run anyway**.*
-   - 🐧 **Linux:** download `HundoHunter-4.1.0-linux-x64.tar.gz`, extract it and run `./install.sh` (adds HundoHunter to your app menu). Works best in an X11 session; on Wayland, hotkeys and always-on-top depend on your desktop.
+   - 🐧 **Linux:** download `HundoHunter-4.1.1-linux-x64.tar.gz`, extract it and run `./install.sh` (adds HundoHunter to your app menu). Works best in an X11 session; on Wayland, hotkeys and always-on-top depend on your desktop.
    - 🍎 **macOS:** download the zip for your Mac (`AppleSilicon` for M1–M4, `Intel` for older Macs), unzip it and move `HundoHunter.app` to Applications. The app isn't signed, so the first time right-click it and choose **Open**.
    - 🎮 **Steam Deck:** use the Linux version. In Game Mode the small HUD is drawn on top of your game and you can toggle it with the controller. The big window isn't available on Steam Deck.
 3. Get a free **Steam Web API key** at <https://steamcommunity.com/dev/apikey> (any domain name works, e.g. `localhost`) and paste it into the settings.

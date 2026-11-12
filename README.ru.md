@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-v4.1.0-ff7aa8?style=for-the-badge" alt="скачать"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-v4.1.1-ff7aa8?style=for-the-badge" alt="скачать"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-%D0%B4%D0%BE%D1%81%D1%82%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2-12-b48cff?style=for-the-badge" alt="12">
@@ -156,7 +156,7 @@
 
 1. 🪟 **Windows:** Скачай **HundoHunter.zip** из [последнего релиза](../../releases/latest) и распакуй куда угодно.
 2. Запусти `HundoHunter.exe`. Больше ничего ставить не нужно: это один файл, .NET уже внутри.<br>*Windows может показать «Система Windows защитила ваш компьютер», потому что приложение не подписано. Нажми **Подробнее → Выполнить в любом случае**.*
-   - 🐧 **Linux:** скачай `HundoHunter-4.1.0-linux-x64.tar.gz`, распакуй и запусти `./install.sh` (HundoHunter появится в меню приложений). Лучше всего работает в сеансе X11; в Wayland горячие клавиши и режим поверх окон зависят от рабочего стола.
+   - 🐧 **Linux:** скачай `HundoHunter-4.1.1-linux-x64.tar.gz`, распакуй и запусти `./install.sh` (HundoHunter появится в меню приложений). Лучше всего работает в сеансе X11; в Wayland горячие клавиши и режим поверх окон зависят от рабочего стола.
    - 🍎 **macOS:** скачай zip для своего Mac (`AppleSilicon` для M1–M4, `Intel` для старых Mac), распакуй и перенеси `HundoHunter.app` в «Программы». Приложение не подписано, поэтому в первый раз нажми правой кнопкой и выбери **Открыть**.
    - 🎮 **Steam Deck:** используй версию для Linux. В игровом режиме маленький HUD рисуется поверх игры и включается геймпадом. Большое окно на Steam Deck недоступно.
 3. Получи бесплатный **ключ Steam Web API** на <https://steamcommunity.com/dev/apikey> (подойдёт любое доменное имя, например `localhost`) и вставь его в настройках.
