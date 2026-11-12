@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v4.1.0-ff7aa8?style=for-the-badge" alt="下载"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v4.1.1-ff7aa8?style=for-the-badge" alt="下载"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-%E6%88%90%E5%B0%B1-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-12-b48cff?style=for-the-badge" alt="12">
@@ -156,7 +156,7 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 
 1. 🪟 **Windows:** 从[最新版本](../../releases/latest)下载 **HundoHunter.zip**，解压到任意位置。
 2. 运行 `HundoHunter.exe`。无需安装其他东西：它是一个内置 .NET 的单文件。<br>*由于应用未签名，Windows 可能会提示“Windows 已保护你的电脑”。点击 **更多信息 → 仍要运行**。*
-   - 🐧 **Linux：** 下载 `HundoHunter-4.1.0-linux-x64.tar.gz`，解压后运行 `./install.sh`（会把 HundoHunter 加入应用菜单）。在 X11 会话中效果最佳；在 Wayland 下，快捷键和置顶取决于你的桌面环境。
+   - 🐧 **Linux：** 下载 `HundoHunter-4.1.1-linux-x64.tar.gz`，解压后运行 `./install.sh`（会把 HundoHunter 加入应用菜单）。在 X11 会话中效果最佳；在 Wayland 下，快捷键和置顶取决于你的桌面环境。
    - 🍎 **macOS：** 下载适合你 Mac 的 zip（M1–M4 选 `AppleSilicon`，旧款 Mac 选 `Intel`），解压后把 `HundoHunter.app` 移到“应用程序”。应用未签名，第一次请右键点击并选择 **打开**。
    - 🎮 **Steam Deck：** 使用 Linux 版本。在游戏模式下，小 HUD 会显示在游戏上方，并可用手柄切换。Steam Deck 上无法使用大窗口。
 3. 在 <https://steamcommunity.com/dev/apikey> 免费获取 **Steam Web API 密钥**（域名随便填，例如 `localhost`），并粘贴到设置中。
