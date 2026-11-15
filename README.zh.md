@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v4.1.1-ff7aa8?style=for-the-badge" alt="下载"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v4.2.0-ff7aa8?style=for-the-badge" alt="下载"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-%E6%88%90%E5%B0%B1-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-12-b48cff?style=for-the-badge" alt="12">
@@ -22,6 +22,17 @@
 <p align="center">
   <img src="docs/hundos/group.svg" alt="Hundos" width="640">
 </p>
+
+## 🆕 v4.2 新内容
+
+- **Hundo Wrapped**：年度总结卡片（1080×1350），包含成就数、100% 游戏、最稀有成就、年度游戏、月度图表和你的猎人类型。
+- **徽章与段位进度**：18 个带进度条的徽章，以及距离下一段位还差多少。
+- **每周任务**：从你玩的游戏中挑一个稀有但可完成的成就，当周解锁可得 +100 Y。
+- 进度类成就的 **“就差一点”提醒**，以及基于你自己速度的 **100% 时间估算**。
+- **手机作为第二屏幕**：扫码即可在手机上看到 HUD，点按成就设为目标。仅限你的局域网，并使用密钥。
+- 通过 Webhook **发布到 Discord 频道**：稀有成就、全部成就或仅 100%，附带分享卡片。
+- **主播模式升级**：全新 OBS 叠加层，带设置与预览页、直播目标、按奖杯颜色显示并带彩纸的通知、测试通知，以及 **Twitch 聊天指令**（`!target`、`!progress`、`!rarest`）。
+- 设置中 **一键更新**，所有主题的动画更流畅。
 
 ## 🆕 v4.1 新内容
 
@@ -156,7 +167,7 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 
 1. 🪟 **Windows:** 从[最新版本](../../releases/latest)下载 **HundoHunter.zip**，解压到任意位置。
 2. 运行 `HundoHunter.exe`。无需安装其他东西：它是一个内置 .NET 的单文件。<br>*由于应用未签名，Windows 可能会提示“Windows 已保护你的电脑”。点击 **更多信息 → 仍要运行**。*
-   - 🐧 **Linux：** 下载 `HundoHunter-4.1.1-linux-x64.tar.gz`，解压后运行 `./install.sh`（会把 HundoHunter 加入应用菜单）。在 X11 会话中效果最佳；在 Wayland 下，快捷键和置顶取决于你的桌面环境。
+   - 🐧 **Linux：** 下载 `HundoHunter-4.2.0-linux-x64.tar.gz`，解压后运行 `./install.sh`（会把 HundoHunter 加入应用菜单）。在 X11 会话中效果最佳；在 Wayland 下，快捷键和置顶取决于你的桌面环境。
    - 🍎 **macOS：** 下载适合你 Mac 的 zip（M1–M4 选 `AppleSilicon`，旧款 Mac 选 `Intel`），解压后把 `HundoHunter.app` 移到“应用程序”。应用未签名，第一次请右键点击并选择 **打开**。
    - 🎮 **Steam Deck：** 使用 Linux 版本。在游戏模式下，小 HUD 会显示在游戏上方，并可用手柄切换。Steam Deck 上无法使用大窗口。
 3. 在 <https://steamcommunity.com/dev/apikey> 免费获取 **Steam Web API 密钥**（域名随便填，例如 `localhost`），并粘贴到设置中。

@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-v4.1.1-ff7aa8?style=for-the-badge" alt="ダウンロード"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-v4.2.0-ff7aa8?style=for-the-badge" alt="ダウンロード"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-%E5%AE%9F%E7%B8%BE-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/%E8%A8%80%E8%AA%9E-12-b48cff?style=for-the-badge" alt="12">
@@ -22,6 +22,17 @@
 <p align="center">
   <img src="docs/hundos/group.svg" alt="Hundos" width="640">
 </p>
+
+## 🆕 v4.2 の新機能
+
+- **Hundo Wrapped**：1年のまとめカード（1080×1350）。実績数、100%達成、最もレアな実績、今年のゲーム、月別グラフ、あなたのハンタータイプ。
+- **バッジとランク進捗**：進捗バー付きの18個のバッジと、次のランクまでの残り。
+- **週間クエスト**：遊んでいるゲームからレアだけど達成できる実績を1つ。その週に解除すれば +100 Y。
+- 進捗型実績の **「あと少し」通知** と、自分のペースから出す **100%までの目安時間**。
+- **スマホをセカンドスクリーンに**：QRコードを読み取るとスマホにHUDを表示。実績をタップで目標に。自分のネットワーク内だけ、秘密キー付き。
+- ウェブフックで **Discordチャンネルに投稿**：レア実績、すべて、または100%のみ。シェアカード付き。
+- **配信者モードを強化**：設定とプレビュー付きの新しいOBSオーバーレイ、配信目標、トロフィー色の紙吹雪通知、テスト通知、**Twitchチャットコマンド**（`!target`、`!progress`、`!rarest`）。
+- 設定から **ワンクリック更新**、全テーマでアニメーションがよりなめらかに。
 
 ## 🆕 v4.1 の新機能
 
@@ -156,7 +167,7 @@
 
 1. 🪟 **Windows:** [最新リリース](../../releases/latest)から **HundoHunter.zip** をダウンロードし、好きな場所に展開します。
 2. `HundoHunter.exe` を実行します。ほかに何もインストールする必要はありません：.NET を含む単一ファイルです。<br>*アプリが署名されていないため、Windows に「Windows によって PC が保護されました」と表示されることがあります。**詳細情報 → 実行** をクリックしてください。*
-   - 🐧 **Linux：** `HundoHunter-4.1.1-linux-x64.tar.gz` をダウンロードして展開し、`./install.sh` を実行します（アプリメニューに HundoHunter が追加されます）。X11 セッションで最もよく動作します。Wayland ではショートカットと最前面表示はデスクトップ環境によります。
+   - 🐧 **Linux：** `HundoHunter-4.2.0-linux-x64.tar.gz` をダウンロードして展開し、`./install.sh` を実行します（アプリメニューに HundoHunter が追加されます）。X11 セッションで最もよく動作します。Wayland ではショートカットと最前面表示はデスクトップ環境によります。
    - 🍎 **macOS：** お使いの Mac に合った zip（M1〜M4 は `AppleSilicon`、それ以前の Mac は `Intel`）をダウンロードして展開し、`HundoHunter.app` をアプリケーションに移動します。アプリは署名されていないため、初回は右クリックして **開く** を選んでください。
    - 🎮 **Steam Deck：** Linux 版を使ってください。ゲームモードでは小さな HUD がゲームの上に表示され、コントローラーで切り替えられます。大きなウィンドウは Steam Deck では使えません。
 3. <https://steamcommunity.com/dev/apikey> で無料の **Steam Web API キー** を取得し（ドメイン名は何でも OK、例：`localhost`）、設定に貼り付けます。

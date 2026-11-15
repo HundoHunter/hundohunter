@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/t%C3%A9l%C3%A9charger-v4.1.1-ff7aa8?style=for-the-badge" alt="télécharger"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/t%C3%A9l%C3%A9charger-v4.2.0-ff7aa8?style=for-the-badge" alt="télécharger"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-succ%C3%A8s-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/langues-12-b48cff?style=for-the-badge" alt="12">
@@ -22,6 +22,17 @@ Et tu ne chasses jamais seul. Voici les **Hundos** 💖
 <p align="center">
   <img src="docs/hundos/group.svg" alt="Hundos" width="640">
 </p>
+
+## 🆕 Nouveautés de la v4.2
+
+- **Hundo Wrapped** : un bilan de l'année (1080×1350) avec tes succès, tes 100 %, ton succès le plus rare, ton jeu de l'année, un graphique par mois et ton profil de chasseur.
+- **Badges et progression de rang** : 18 badges avec barres de progression, et ce qu'il te reste avant le rang suivant.
+- **Quête de la semaine** : un succès rare mais faisable dans un de tes jeux, +100 Y si tu le débloques dans la semaine.
+- **Alertes « presque ! »** pour les succès à progression et une **estimation du temps jusqu'à 100 %** selon ton rythme.
+- **Le téléphone en second écran** : scanne un QR code et ton téléphone affiche le HUD ; touche un succès pour le viser. Uniquement sur ton réseau, avec une clé secrète.
+- **Publications dans un salon Discord** via webhook : succès rares, tous ou seulement les 100 %, avec ta carte.
+- **Mode streamer amélioré** : nouvel overlay OBS avec page de réglage et d'aperçu, objectif du live, alertes aux couleurs du trophée avec confettis, alerte de test et **commandes du chat Twitch** (`!target`, `!progress`, `!rarest`).
+- **Mise à jour en un clic** depuis les paramètres et animations plus fluides dans tous les thèmes.
 
 ## 🆕 Nouveautés de la v4.1
 
@@ -156,7 +167,7 @@ La plupart des thèmes sont animés. Les Hundos vivent dans **Neko**, **Clair de
 
 1. 🪟 **Windows:** Télécharge **HundoHunter.zip** depuis la [dernière version](../../releases/latest) et décompresse-le où tu veux.
 2. Lance `HundoHunter.exe`. Rien d'autre à installer : c'est un seul fichier avec .NET inclus.<br>*Windows peut afficher « Windows a protégé votre ordinateur » car l'appli n'est pas signée. Clique sur **Informations complémentaires → Exécuter quand même**.*
-   - 🐧 **Linux :** télécharge `HundoHunter-4.1.1-linux-x64.tar.gz`, décompresse-le et lance `./install.sh` (ajoute HundoHunter au menu des applications). Fonctionne au mieux dans une session X11 ; sous Wayland, les raccourcis et le mode toujours au premier plan dépendent de ton bureau.
+   - 🐧 **Linux :** télécharge `HundoHunter-4.2.0-linux-x64.tar.gz`, décompresse-le et lance `./install.sh` (ajoute HundoHunter au menu des applications). Fonctionne au mieux dans une session X11 ; sous Wayland, les raccourcis et le mode toujours au premier plan dépendent de ton bureau.
    - 🍎 **macOS :** télécharge le zip pour ton Mac (`AppleSilicon` pour M1–M4, `Intel` pour les Mac plus anciens), décompresse-le et déplace `HundoHunter.app` dans Applications. L'appli n'est pas signée : la première fois, fais un clic droit et choisis **Ouvrir**.
    - 🎮 **Steam Deck :** utilise la version Linux. En mode Jeu, le petit HUD s'affiche par-dessus le jeu et se montre ou se cache à la manette. La grande fenêtre n'est pas disponible sur Steam Deck.
 3. Obtiens une **clé Steam Web API** gratuite sur <https://steamcommunity.com/dev/apikey> (n'importe quel nom de domaine, par ex. `localhost`) et colle-la dans les paramètres.
