@@ -1,12 +1,13 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="HundoHunter：通往 100% 路上的可爱伙伴" width="100%">
+  <img src="docs/banner.png" alt="HundoHunter" width="100%">
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v4.2.0-ff7aa8?style=for-the-badge" alt="下载"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/download-v4.2.0-ff7aa8?style=for-the-badge" alt="download"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
-  <img src="https://img.shields.io/badge/Steam-%E6%88%90%E5%B0%B1-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
-  <img src="https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-12-b48cff?style=for-the-badge" alt="12">
+  <img src="https://img.shields.io/badge/Steam-achievements-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
+  <img src="https://img.shields.io/badge/languages-12-b48cff?style=for-the-badge" alt="12">
+  <img src="https://img.shields.io/badge/35%20%E4%B8%AA%E4%B8%BB%E9%A2%98-ffb86b?style=for-the-badge" alt="35">
 </p>
 
 <p align="center">
@@ -15,47 +16,77 @@
 
 ---
 
+<p align="center">
+  <img src="docs/gif/opening.gif" alt="HundoHunter" width="460">
+</p>
+
 **HundoHunter** 是一个在你玩游戏时停在屏幕角落的小窗口。它会自动识别正在运行的 Steam 游戏，告诉你**下一个该拿的成就**、**怎么拿到它**，以及**哪些成就可能永远错过**。目标只有一个：把每款游戏都打到 100%，也就是一个 *hundo*。
 
 而且你从不孤单。来认识一下 **Hundo 们** 吧 💖
 
 <p align="center">
-  <img src="docs/hundos/group.svg" alt="Hundos" width="640">
+  <img src="docs/hundos/group.png" alt="Hundos" width="100%">
 </p>
 
 ## 🆕 v4.2 新内容
 
-- **Hundo Wrapped**：年度总结卡片（1080×1350），包含成就数、100% 游戏、最稀有成就、年度游戏、月度图表和你的猎人类型。
-- **徽章与段位进度**：18 个带进度条的徽章，以及距离下一段位还差多少。
-- **每周任务**：从你玩的游戏中挑一个稀有但可完成的成就，当周解锁可得 +100 Y。
-- 进度类成就的 **“就差一点”提醒**，以及基于你自己速度的 **100% 时间估算**。
-- **手机作为第二屏幕**：扫码即可在手机上看到 HUD，点按成就设为目标。仅限你的局域网，并使用密钥。
-- 通过 Webhook **发布到 Discord 频道**：稀有成就、全部成就或仅 100%，附带分享卡片。
-- **主播模式升级**：全新 OBS 叠加层，带设置与预览页、直播目标、按奖杯颜色显示并带彩纸的通知、测试通知，以及 **Twitch 聊天指令**（`!target`、`!progress`、`!rarest`）。
-- 设置中 **一键更新**，所有主题的动画更流畅。
+<h3>🎁 你的年度，你的段位</h3>
 
-## 🆕 v4.1 新内容
+<table>
+<tr>
+<td width="44%" valign="top"><img src="docs/img/wrapped_zh.png" alt="Hundo Wrapped" width="100%"></td>
+<td valign="top"><img src="docs/img/stats_en.png" alt="Stats" width="100%">
+<ul>
+<li><b>Hundo Wrapped</b>：年度总结卡片（1080×1350），包含成就数、100% 游戏、最稀有成就、年度游戏、月度图表和你的猎人类型。</li>
+<li><b>徽章与段位进度</b>：18 个带进度条的徽章，以及距离下一段位还差多少。</li>
+<li><b>每周任务</b>：从你玩的游戏中挑一个稀有但可完成的成就，当周解锁可得 +100 Y。</li>
+<li>进度类成就的 <b>“就差一点”提醒</b>，以及基于你自己速度的 <b>100% 时间估算</b>。</li>
+</ul>
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <img src="docs/img/hub.png" alt="大窗口" width="100%">
-</p>
-
-- **大窗口**（`Ctrl` + `Shift` + `A`）：所有游戏和成就并排显示，带筛选、排序、攻略、笔记和好友。搜索能找到你拥有的每一款游戏，包括从未启动过的，还能容忍拼写错误。
-- **追踪列表**：把任意游戏的成就收集到命名列表中。小 HUD 会显示你选择的列表。
-- **100% 路线图**：AI 把游戏的成就分成合理的阶段，可错过的放在最前，刷刷刷的放到最后。
-- **好友标签页**：每款游戏的排名、“他们有而你没有”、谁在什么时候解锁了什么，好友超过你时还会提醒。
-- **统计与游戏会话总结**：总数、连续天数和月度图表，每次游戏结束后还有一张简短卡片。
-- **分享卡片**：使用主题配色的 1200×630 进度图，附带解锁瞬间的截图。
-- **主播模式**：供 OBS / Streamlabs 使用的透明叠加页面（浏览器来源）。
-- **Discord 状态**、**手柄切换显示**（Xbox、PlayStation、Steam Deck；Windows 和 Linux）以及 **Steam Deck 游戏模式**支持。
-- **隐藏成就的描述**来自 Steam 自己的数据，在你主动查看前仍保持模糊。
-- **一键更新**（经 SHA256 校验），以及会隐藏密钥和 ID 的**报告问题**按钮。
-- **新增 4 种语言**：Português (BR)、Polski、한국어 和 Italiano（共 12 种）。
-- **32 个主题**，其中 8 个是新的：玻璃、深海、星系、日落、雨窗、大理石与金、终端、伊斯坦布尔（博斯普鲁斯）。所有主题都重新绘制，动画更流畅、更轻量。
+<h3>📺 主播模式与第二屏幕</h3>
 
 <p align="center">
-  <img src="docs/img/hub_friends.png" alt="好友标签页" width="100%">
+  <img src="docs/gif/obs.gif" alt="OBS overlay" width="100%">
 </p>
+
+<table>
+<tr>
+<td width="66%" valign="top"><img src="docs/img/obs_setup.png" alt="Stream overlay setup" width="100%">
+<ul>
+<li><b>主播模式升级</b>：全新 OBS 叠加层，带设置与预览页、直播目标、按奖杯颜色显示并带彩纸的通知、测试通知，以及 <b>Twitch 聊天指令</b>（<code>!target</code>、<code>!progress</code>、<code>!rarest</code>）。</li>
+<li>通过 Webhook <b>发布到 Discord 频道</b>：稀有成就、全部成就或仅 100%，附带分享卡片。</li>
+</ul>
+</td>
+<td valign="top"><img src="docs/img/phone.png" alt="Phone" width="100%">
+<ul>
+<li><b>手机作为第二屏幕</b>：扫码即可在手机上看到 HUD，点按成就设为目标。仅限你的局域网，并使用密钥。</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<h3>✨ 此外</h3>
+
+<ul>
+<li><b>三款全新像素主题</b>，手绘动画讲述小故事：余烬与钢铁、月光池塘、星际漫游者。</li>
+<li>全新<b>开场动画</b>：半透明的海浪带来奖杯并写出名字。动画现在以 <b>60 fps</b> 运行，滚动条也换成了主题色细条。</li>
+<li>设置中 <b>一键更新</b>，所有主题的动画更流畅。</li>
+</ul>
+
+## 🕹️ 三款全新像素主题
+
+全部手绘像素画，每款都有一个每隔几秒循环的小故事。
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top"><img src="docs/gif/ember.gif" alt="余烬与钢铁" width="100%"><br><b>余烬与钢铁</b><br><sub>受伤的骑士在插着剑的篝火旁休息。</sub></td>
+<td width="33%" align="center" valign="top"><img src="docs/gif/pond.gif" alt="月光池塘" width="100%"><br><b>月光池塘</b><br><sub>月光下池塘边的青蛙、萤火虫和跃起的鱼。</sub></td>
+<td width="33%" align="center" valign="top"><img src="docs/gif/drift.gif" alt="星际漫游者" width="100%"><br><b>星际漫游者</b><br><sub>小宇航员在漂流的岩石上插下旗帜。</sub></td>
+</tr>
+</table>
 
 ## 💖 认识 Hundo 们
 
@@ -63,31 +94,50 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 
 <table>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/neko.svg" width="180" alt="猫娘"><br><b>猫娘</b></td>
+<td width="200" align="center"><img src="docs/hundos/neko.png" width="180" alt="猫娘"><br><b>猫娘</b></td>
 <td>
 <b>追踪者。</b> 游戏一启动，猫娘就能嗅到你的<b>下一个成就</b>，并给出描述和攻略提示。目标接近时她的耳朵会抖动（例如 <code>32/50</code> 进度型成就）。
 <br><br><i>"喵~ 再三个就是你的啦！"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/moon.svg" width="180" alt="月光"><br><b>月光</b></td>
+<td width="200" align="center"><img src="docs/hundos/moon.png" width="180" alt="月光"><br><b>月光</b></td>
 <td>
 <b>安静的守护者。</b> 月光守护着你的<b>游戏库</b>、<b>14 天历史</b>以及<b>最接近 100%</b> 的游戏，让你随时知道哪个 hundo 触手可及。
 <br><br><i>"Stardew Valley 已经 86% 了……今晚把它打完吧？"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/idol.svg" width="180" alt="霓虹节拍"><br><b>霓虹节拍</b></td>
+<td width="200" align="center"><img src="docs/hundos/idol.png" width="180" alt="霓虹节拍"><br><b>霓虹节拍</b></td>
 <td>
 <b>啦啦队长。</b> 成就一解锁，她最先知道：<b>即时检测</b>，与 Steam 自己的通知同一秒。奖杯音效、弹窗、跳一跳，你的 <b>Y 分</b>也随之上涨。
 <br><br><i>"钻石奖杯！！不到 1% 的玩家拿到过！"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/goth.svg" width="180" alt="哥特公主"><br><b>哥特公主</b></td>
+<td width="200" align="center"><img src="docs/hundos/goth.png" width="180" alt="哥特公主"><br><b>哥特公主</b></td>
 <td>
 <b>守卫者。</b> 她会在为时已晚之前提醒你<b>可错过的成就</b>（AI 辅助检测），并把<b>隐藏成就模糊处理</b>，不让任何剧透。
 <br><br><i>"小心。离开这一章，那个奖杯就永远没了。"</i>
+</td>
+</tr>
+</table>
+
+还有她们的两位吉祥物小伙伴：
+
+<table>
+<tr>
+<td width="200" align="center"><img src="docs/hundos/bat.png" width="160" alt="午夜小蝙蝠"><br><b>午夜小蝙蝠</b></td>
+<td>
+<b>夜猫子。</b> 她陪伴着<b>直播叠加层</b>：目标进度条、LIVE 徽章，以及给观众看的彩纸提醒。
+<br><br><i>"弹幕看到了吗？蓝宝石奖杯！"</i>
+</td>
+</tr>
+<tr>
+<td width="200" align="center"><img src="docs/hundos/cloud.png" width="160" alt="棉花云"><br><b>棉花云</b></td>
+<td>
+<b>小梦想家。</b> 棉花云飘在你的<b>统计</b>上方：徽章、每周任务，以及年底的 <b>Hundo Wrapped</b>。
+<br><br><i>"只差 4 个徽章啦……一定可以~"</i>
 </td>
 </tr>
 </table>
@@ -98,7 +148,7 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 <tr>
 <td width="50%" valign="top"><img src="docs/img/main_zh.png" alt="游戏内窗口" width="100%"></td>
 <td valign="top">
-<h3><img src="docs/hundos/neko_head.svg" height="30"> 游戏内攻略</h3>
+<h3><img src="docs/hundos/neko_head.png" height="30"> 游戏内攻略</h3>
 <ul>
 <li>自动识别正在运行的 Steam 游戏</li>
 <li>带描述、稀有度和攻略提示的<b>下一个目标成就</b></li>
@@ -106,7 +156,7 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 <li>追踪任意成就作为目标，添加个人笔记</li>
 <li>在<b>无边框 / 窗口化全屏</b>的游戏上方显示</li>
 </ul>
-<h3><img src="docs/hundos/idol_head.svg" height="30"> 即时解锁</h3>
+<h3><img src="docs/hundos/idol_head.png" height="30"> 即时解锁</h3>
 <ul>
 <li>读取 Steam 自己的本地记录：成就会在 <b>Steam 显示的同一秒</b>出现</li>
 <li>即使<i>游戏详情</i>设为私密也能工作</li>
@@ -116,13 +166,13 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 </tr>
 <tr>
 <td valign="top">
-<h3><img src="docs/hundos/goth_head.svg" height="30"> 没有意外，没有剧透</h3>
+<h3><img src="docs/hundos/goth_head.png" height="30"> 没有意外，没有剧透</h3>
 <ul>
 <li><b>可错过成就</b>提醒（AI 辅助：Gemini 或 OpenAI）</li>
 <li>攻略文本<b>自动翻译</b>成你的语言</li>
 <li><b>防剧透</b>：隐藏成就在你想看之前一直保持模糊</li>
 </ul>
-<h3><img src="docs/hundos/moon_head.svg" height="30"> 你的全部收藏</h3>
+<h3><img src="docs/hundos/moon_head.png" height="30"> 你的全部收藏</h3>
 <ul>
 <li>显示每款游戏进度和<b>最接近 100%</b> 的游戏库</li>
 <li>14 天解锁历史图表</li>
@@ -130,13 +180,12 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 <li>多个 Steam 账号，一键切换</li>
 </ul>
 </td>
-<td valign="top"><img src="docs/img/toast.png" alt="解锁庆祝" width="100%"></td>
+<td valign="top"><img src="docs/img/hub_friends.png" alt="Friends" width="100%"></td>
 </tr>
 </table>
 
 <p align="center">
-  <img src="docs/img/library.png" alt="游戏库" width="45%">&nbsp;&nbsp;
-  <img src="docs/img/friends.png" alt="好友排行榜（名字已模糊）" width="45%">
+  <img src="docs/img/hub.png" alt="Library" width="100%">
 </p>
 
 ## 🏆 奖杯等级与 Y 分
@@ -153,12 +202,12 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 
 把一款游戏打到 100% 可获得 **+50 奖励分**。一路晋级：新手 → 铜猎人 → 银猎人 → 金猎人 → 蓝宝石大师 → 钻石大师 → **传奇**。
 
-## 🎨 32 个主题（还有几个秘密主题）
+## 🎨 35 个主题（还有几个秘密主题）
 
 大多数主题都是动态的。Hundo 们住在 **猫娘**、**月光**、**霓虹节拍** 和 **哥特公主** 主题里，她们还有吉祥物朋友。你甚至可以设置**自己的背景图片**，与主题一起显示或单独显示。
 
 <p align="center">
-  <img src="docs/img/themes.png" alt="主题画廊" width="820">
+  <img src="docs/img/themes_en.png" alt="主题画廊" width="100%">
 </p>
 
 > 🤫 有些主题不在列表里。传说 Hundo 们只会把密码悄悄告诉真正的猎人……
@@ -198,6 +247,9 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 - 截图和分享卡片保存在你的“图片”文件夹中，不会上传任何内容。
 - Discord 状态是可选的，只通过你电脑上的 Discord 应用发送。
 - 报告问题会打开一个你在发送前可以查看的 GitHub 问题。API 密钥、Steam ID、电子邮件地址和你的用户名都会被隐藏。
+- 手机页面只在你自己的网络中可用，并需要二维码里的密钥。
+- Discord Webhook 地址与 API 密钥一样加密保存。
+- Twitch 聊天以匿名、只读方式读取；HundoHunter 从不在你的聊天中发言。
 
 ## ❓ 故障排除
 
@@ -208,10 +260,12 @@ Hundo 们是住在 HundoHunter 主题里的小女孩。她们会眨眼、摇摆�
 | 成就显示有延迟 | Steam 是否在运行？游戏是否通过 Steam 启动？ |
 | 识别成了别的游戏 | 在 *手动选择游戏* 中输入游戏的 AppID（商店链接里的数字）。 |
 | 窗口不见了 | 按 `Ctrl` + `H` 或点击托盘图标。 |
+| 手机页面打不开 | 确认手机连接同一 Wi-Fi，并在防火墙中允许 HundoHunter（专用网络）。 |
+| Discord 没有收到消息 | 在设置中点击<b>发送测试</b>；检查 Webhook 地址是否完整、频道是否仍然存在。 |
 
 ## 💝 支持 HundoHunter
 
-<p align="center"><img src="docs/hundos/idol_head.svg" height="56"></p>
+<p align="center"><img src="docs/hundos/idol_head.png" height="56"></p>
 
 HundoHunter 免费且用心制作。如果它帮你拿下了一个 hundo，可以请 Hundo 们吃点小零食！每一份支持都能带来新的主题、功能和新的 Hundo。
 
@@ -220,13 +274,31 @@ HundoHunter 免费且用心制作。如果它帮你拿下了一个 hundo，可�
   <a href="https://buymeacoffee.com/HundoHunter"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-%F0%9F%92%96-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee"></a>
 </p>
 
+<details>
+<summary><b>此前：v4.1 带来的内容</b></summary>
+
+- **大窗口**（`Ctrl` + `Shift` + `A`）：所有游戏和成就并排显示，带筛选、排序、攻略、笔记和好友。搜索能找到你拥有的每一款游戏，包括从未启动过的，还能容忍拼写错误。
+- **追踪列表**：把任意游戏的成就收集到命名列表中。小 HUD 会显示你选择的列表。
+- **100% 路线图**：AI 把游戏的成就分成合理的阶段，可错过的放在最前，刷刷刷的放到最后。
+- **好友标签页**：每款游戏的排名、“他们有而你没有”、谁在什么时候解锁了什么，好友超过你时还会提醒。
+- **统计与游戏会话总结**：总数、连续天数和月度图表，每次游戏结束后还有一张简短卡片。
+- **分享卡片**：使用主题配色的 1200×630 进度图，附带解锁瞬间的截图。
+- **主播模式**：供 OBS / Streamlabs 使用的透明叠加页面（浏览器来源）。
+- **Discord 状态**、**手柄切换显示**（Xbox、PlayStation、Steam Deck；Windows 和 Linux）以及 **Steam Deck 游戏模式**支持。
+- **隐藏成就的描述**来自 Steam 自己的数据，在你主动查看前仍保持模糊。
+- **一键更新**（经 SHA256 校验），以及会隐藏密钥和 ID 的**报告问题**按钮。
+- **新增 4 种语言**：Português (BR)、Polski、한국어 和 Italiano（共 12 种）。
+- **32 个主题**，其中 8 个是新的：玻璃、深海、星系、日落、雨窗、大理石与金、终端、伊斯坦布尔（博斯普鲁斯）。所有主题都重新绘制，动画更流畅、更轻量。
+
+</details>
+
 ## 📜 法律信息与致谢
 
 HundoHunter 是一个独立的粉丝项目，**与 Valve Corporation 或 Steam 无关**。Steam 及 Steam 标志是 Valve Corporation 的商标。游戏和成就数据来自 Steam Web API。
 
-Hundo 们和所有主题图画都是为 HundoHunter 原创的矢量图。“Press Start 2P”字体：CodeMan38，SIL Open Font License 1.1。“Mr Dafoe”字体：Alejandro Paul (Sudtipos)，SIL Open Font License 1.1。图标来自 Pictogrammers 的 Material Design Icons，Apache License 2.0。
+Hundo 们和所有主题图画都是为 HundoHunter 原创的矢量图。“Press Start 2P”字体：CodeMan38，SIL Open Font License 1.1。“Mr Dafoe”字体：Alejandro Paul (Sudtipos)，SIL Open Font License 1.1。图标来自 Pictogrammers 的 Material Design Icons，Apache License 2.0。 三款像素主题均为专为 HundoHunter 绘制的原创像素画。
 
 <p align="center">
   用 💖 制作： <b>Wavemint</b><br>
-  <img src="docs/hundos/neko_head.svg" height="40"><img src="docs/hundos/moon_head.svg" height="40"><img src="docs/hundos/idol_head.svg" height="40"><img src="docs/hundos/goth_head.svg" height="40">
+  <img src="docs/hundos/neko_head.png" height="40"><img src="docs/hundos/moon_head.png" height="40"><img src="docs/hundos/idol_head.png" height="40"><img src="docs/hundos/goth_head.png" height="40"><img src="docs/hundos/bat_head.png" height="40"><img src="docs/hundos/cloud_head.png" height="40">
 </p>

@@ -1,12 +1,13 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="HundoHunter: %100 yolunda tatlış yol arkadaşların" width="100%">
+  <img src="docs/banner.png" alt="HundoHunter" width="100%">
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/indir-v4.2.0-ff7aa8?style=for-the-badge" alt="indir"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/download-v4.2.0-ff7aa8?style=for-the-badge" alt="download"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
-  <img src="https://img.shields.io/badge/Steam-ba%C5%9Far%C4%B1mlar%C4%B1-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
-  <img src="https://img.shields.io/badge/dil-12-b48cff?style=for-the-badge" alt="12">
+  <img src="https://img.shields.io/badge/Steam-achievements-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
+  <img src="https://img.shields.io/badge/languages-12-b48cff?style=for-the-badge" alt="12">
+  <img src="https://img.shields.io/badge/35%20tema-ffb86b?style=for-the-badge" alt="35">
 </p>
 
 <p align="center">
@@ -15,47 +16,77 @@
 
 ---
 
+<p align="center">
+  <img src="docs/gif/opening.gif" alt="HundoHunter" width="460">
+</p>
+
 **HundoHunter**, oyun oynarken ekranın köşesinde duran küçük bir penceredir. Açtığın Steam oyununu kendisi tanır; **sıradaki başarımı**, **ona nasıl ulaşacağını** ve **sonsuza dek kaçırabileceğin başarımları** gösterir. Tek hedef: her oyunu %100 bitirmek, yani bir *hundo*.
 
 Üstelik avda hiç yalnız değilsin. Karşında **Hundolar** 💖
 
 <p align="center">
-  <img src="docs/hundos/group.svg" alt="Hundos" width="640">
+  <img src="docs/hundos/group.png" alt="Hundos" width="100%">
 </p>
 
 ## 🆕 v4.2'de neler yeni
 
-- **Hundo Wrapped**: yılın özet kartı (1080×1350); başarımların, %100'lerin, en nadir başarımın, yılın oyunun, aylık grafik ve avcı tipin.
-- **Rozetler ve rütbe ilerlemesi**: ilerleme çubuklu 18 rozet ve bir sonraki rütbeye ne kadar kaldığı.
-- **Haftalık görev**: oynadığın bir oyundan nadir ama yapılabilir bir başarım; o hafta açarsan +100 Y.
-- İlerlemeli başarımlarda **"az kaldı" uyarısı** ve kendi hızına göre **%100 süre tahmini**.
-- **Telefonda ikinci ekran**: QR kodu okut, HUD telefonunda görünsün; başarıma dokununca hedef olur. Sadece kendi ağında, gizli anahtarla.
-- **Discord kanalına paylaşım** (webhook): nadir başarımlar, hepsi ya da sadece %100'ler, paylaşım kartıyla.
-- **Yayıncı modu yenilendi**: ayar ve önizleme sayfalı yeni OBS overlay'i, yayın hedefi, kupa renginde konfetili bildirimler, test bildirimi ve **Twitch sohbet komutları** (`!hedef`, `!yuzde`, `!nadir`).
-- Ayarlar'dan **tek tıkla güncelleme** ve tüm temalarda daha akıcı animasyonlar.
+<h3>🎁 Senin yılın, senin rütben</h3>
 
-## 🆕 v4.1'de neler yeni
+<table>
+<tr>
+<td width="44%" valign="top"><img src="docs/img/wrapped_tr.png" alt="Hundo Wrapped" width="100%"></td>
+<td valign="top"><img src="docs/img/stats_tr.png" alt="Stats" width="100%">
+<ul>
+<li><b>Hundo Wrapped</b>: yılın özet kartı (1080×1350); başarımların, %100'lerin, en nadir başarımın, yılın oyunun, aylık grafik ve avcı tipin.</li>
+<li><b>Rozetler ve rütbe ilerlemesi</b>: ilerleme çubuklu 18 rozet ve bir sonraki rütbeye ne kadar kaldığı.</li>
+<li><b>Haftalık görev</b>: oynadığın bir oyundan nadir ama yapılabilir bir başarım; o hafta açarsan +100 Y.</li>
+<li>İlerlemeli başarımlarda <b>"az kaldı" uyarısı</b> ve kendi hızına göre <b>%100 süre tahmini</b>.</li>
+</ul>
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <img src="docs/img/hub.png" alt="Büyük pencere" width="100%">
-</p>
-
-- **Büyük pencere** (`Ctrl` + `Shift` + `A`): tüm oyunların ve başarımların yan yana; filtreler, sıralama, rehberler, notlar ve arkadaşlar. Arama, sahip olduğun her oyunu bulur (hiç açmadıkların dahil) ve yazım hatalarını affeder.
-- **Takip listeleri**: istediğin oyunlardan başarımları isimli listelerde topla. Küçük HUD seçtiğin listeyi gösterir.
-- **%100 yol haritası**: yapay zekâ oyunun başarımlarını mantıklı aşamalara ayırır; kaçırılabilecekler önce, grind işleri en sona.
-- **Arkadaşlar sekmesi**: her oyun için sıralama, "onlar aldı, sen almadın", kim neyi ne zaman aldı; bir arkadaşın seni geçince de haber verir.
-- **İstatistikler ve oturum özeti**: toplamlar, seri ve aylık grafik; her oyun oturumundan sonra kısa bir kart.
-- **Paylaşım kartı**: temanın renklerinde 1200×630 ilerleme görseli, başarımı açtığın anda alınan ekran görüntüsüyle.
-- **Yayıncı modu**: OBS / Streamlabs için saydam overlay sayfası (Tarayıcı kaynağı).
-- **Discord durumu**, **kumandayla aç/kapat** (Xbox, PlayStation, Steam Deck; Windows ve Linux) ve **Steam Deck Oyun Modu** desteği.
-- **Gizli başarım açıklamaları** Steam'in kendi verisinden doldurulur; sen isteyene kadar bulanık kalır.
-- **Tek tıkla güncelleme** (SHA256 ile doğrulanır) ve anahtarlarını, kimliklerini gizleyen **hata bildir** butonu.
-- **4 yeni dil**: Português (BR), Polski, 한국어 ve Italiano (toplam 12).
-- **32 tema**, 8'i yeni: Cam, Okyanus Derinliği, Galaksi, Gün Batımı, Yağmurlu Cam, Mermer ve Altın, Terminal, İstanbul (Boğaz). Tüm temalar baştan çizildi, animasyonlar daha akıcı ve hafif.
+<h3>📺 Yayıncı modu ve ikinci ekran</h3>
 
 <p align="center">
-  <img src="docs/img/hub_friends.png" alt="Arkadaşlar sekmesi" width="100%">
+  <img src="docs/gif/obs.gif" alt="OBS overlay" width="100%">
 </p>
+
+<table>
+<tr>
+<td width="66%" valign="top"><img src="docs/img/obs_setup.png" alt="Stream overlay setup" width="100%">
+<ul>
+<li><b>Yayıncı modu yenilendi</b>: ayar ve önizleme sayfalı yeni OBS overlay'i, yayın hedefi, kupa renginde konfetili bildirimler, test bildirimi ve <b>Twitch sohbet komutları</b> (<code>!hedef</code>, <code>!yuzde</code>, <code>!nadir</code>).</li>
+<li><b>Discord kanalına paylaşım</b> (webhook): nadir başarımlar, hepsi ya da sadece %100'ler, paylaşım kartıyla.</li>
+</ul>
+</td>
+<td valign="top"><img src="docs/img/phone.png" alt="Phone" width="100%">
+<ul>
+<li><b>Telefonda ikinci ekran</b>: QR kodu okut, HUD telefonunda görünsün; başarıma dokununca hedef olur. Sadece kendi ağında, gizli anahtarla.</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<h3>✨ Ayrıca</h3>
+
+<ul>
+<li>El çizimi, hikâyeli animasyonlara sahip <b>üç yeni piksel tema</b>: Kor ve Çelik, Gece Gölü ve Yıldız Gezgini.</li>
+<li>Yepyeni <b>açılış animasyonu</b>: saydam bir dalga kupaları getirir ve adı yazar. Animasyonlar artık <b>60 fps</b>, kaydırma çubuğu da temaya uygun ve ince.</li>
+<li>Ayarlar'dan <b>tek tıkla güncelleme</b> ve tüm temalarda daha akıcı animasyonlar.</li>
+</ul>
+
+## 🕹️ Üç yeni piksel tema
+
+Hepsi elle çizilmiş piksel sanat; her birinde birkaç saniyede bir dönen küçük bir hikâye var.
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top"><img src="docs/gif/ember.gif" alt="Kor ve Çelik" width="100%"><br><b>Kor ve Çelik</b><br><sub>Yaralı bir şövalye, kılıcı alevlerin içindeki kamp ateşinin başında dinleniyor.</sub></td>
+<td width="33%" align="center" valign="top"><img src="docs/gif/pond.gif" alt="Gece Gölü" width="100%"><br><b>Gece Gölü</b><br><sub>Ay ışığında bir göl kenarında kurbağa, ateş böcekleri ve zıplayan balıklar.</sub></td>
+<td width="33%" align="center" valign="top"><img src="docs/gif/drift.gif" alt="Yıldız Gezgini" width="100%"><br><b>Yıldız Gezgini</b><br><sub>Minik bir astronot, süzülen bir kayaya bayrağını dikiyor.</sub></td>
+</tr>
+</table>
 
 ## 💖 Hundolarla tanış
 
@@ -63,31 +94,50 @@ Hundolar, HundoHunter'ın temalarında yaşayan küçük kızlardır. Göz kırp
 
 <table>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/neko.svg" width="180" alt="Kedi Kız"><br><b>Kedi Kız</b></td>
+<td width="200" align="center"><img src="docs/hundos/neko.png" width="180" alt="Kedi Kız"><br><b>Kedi Kız</b></td>
 <td>
 <b>İz sürücü.</b> Oyun açılır açılmaz <b>sıradaki başarımının</b> kokusunu alır; açıklamasını ve rehber ipucunu önüne koyar. Bir başarım yaklaştığında kulakları seğirir (örn. <code>32/50</code> ilerlemeli başarımlar).
 <br><br><i>"Miyav~ üç tane daha, sonra o kupa senin!"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/moon.svg" width="180" alt="Ay Işığı"><br><b>Ay Işığı</b></td>
+<td width="200" align="center"><img src="docs/hundos/moon.png" width="180" alt="Ay Işığı"><br><b>Ay Işığı</b></td>
 <td>
 <b>Sessiz bekçi.</b> <b>Kütüphaneni</b>, <b>son 14 günlük geçmişini</b> ve <b>%100'e en yakın oyunlarını</b> gözetir; hangi hundonun bir adım ötede olduğunu hep bilirsin.
 <br><br><i>"Stardew Valley %86'da... bu gece bitirelim mi?"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/idol.svg" width="180" alt="Neon Ritim"><br><b>Neon Ritim</b></td>
+<td width="200" align="center"><img src="docs/hundos/idol.png" width="180" alt="Neon Ritim"><br><b>Neon Ritim</b></td>
 <td>
 <b>Ponpon kız.</b> Bir başarım açıldığında ilk o duyar: <b>anlık yakalama</b>, Steam'in kendi bildirimiyle aynı saniyede. Kupa sesi, bildirim, bir zıplama ve <b>Y Puanın</b> artar.
 <br><br><i>"Elmas kupa!! Bunu oyuncuların %1'inden azı açabildi!"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/goth.svg" width="180" alt="Gotik Prenses"><br><b>Gotik Prenses</b></td>
+<td width="200" align="center"><img src="docs/hundos/goth.png" width="180" alt="Gotik Prenses"><br><b>Gotik Prenses</b></td>
 <td>
 <b>Koruyucu.</b> <b>Kaçırılabilir başarımlar</b> için iş işten geçmeden uyarır (yapay zekâ destekli tespit) ve <b>gizli başarımları bulanık</b> tutar; hiçbir sürpriz bozulmaz.
 <br><br><i>"Dikkat et. Bu bölümden çıkarsan o kupa sonsuza dek gider."</i>
+</td>
+</tr>
+</table>
+
+Ve iki küçük maskot arkadaşları:
+
+<table>
+<tr>
+<td width="200" align="center"><img src="docs/hundos/bat.png" width="160" alt="Gece Yarası"><br><b>Gece Yarası</b></td>
+<td>
+<b>Gece kuşu.</b> Karanlık çökünce <b>yayın overlay'ine</b> eşlik eder: hedef çubuğu, CANLI rozeti ve izleyicilerin için konfetili bildirimler.
+<br><br><i>"Sohbet, gördünüz mü? Safir kupa!"</i>
+</td>
+</tr>
+<tr>
+<td width="200" align="center"><img src="docs/hundos/cloud.png" width="160" alt="Pamuk Bulut"><br><b>Pamuk Bulut</b></td>
+<td>
+<b>Hayalperest.</b> Pamuk Bulut <b>istatistiklerinin</b> üstünde süzülür: rozetler, haftalık görev ve yıl sonunda <b>Hundo Wrapped</b>.
+<br><br><i>"Sadece 4 rozet kaldı... yaparız~"</i>
 </td>
 </tr>
 </table>
@@ -98,7 +148,7 @@ Hundolar, HundoHunter'ın temalarında yaşayan küçük kızlardır. Göz kırp
 <tr>
 <td width="50%" valign="top"><img src="docs/img/main_tr.png" alt="Oyun üstü pencere" width="100%"></td>
 <td valign="top">
-<h3><img src="docs/hundos/neko_head.svg" height="30"> Oyun içi rehber</h3>
+<h3><img src="docs/hundos/neko_head.png" height="30"> Oyun içi rehber</h3>
 <ul>
 <li>Çalışan Steam oyununu otomatik tanır</li>
 <li>Açıklaması, nadirliği ve rehber ipucuyla <b>sıradaki hedef başarım</b></li>
@@ -106,7 +156,7 @@ Hundolar, HundoHunter'ın temalarında yaşayan küçük kızlardır. Göz kırp
 <li>İstediğin başarımı takibe al, kendi notlarını ekle</li>
 <li><b>Kenarlıksız / pencereli tam ekran</b> oyunların üstünde çalışır</li>
 </ul>
-<h3><img src="docs/hundos/idol_head.svg" height="30"> Anlık başarım</h3>
+<h3><img src="docs/hundos/idol_head.png" height="30"> Anlık başarım</h3>
 <ul>
 <li>Steam'in bilgisayardaki kendi kayıtlarını okur: başarım <b>Steam gösterdiği an</b> düşer</li>
 <li><i>Oyun ayrıntıları</i> gizli olsa bile çalışır</li>
@@ -116,13 +166,13 @@ Hundolar, HundoHunter'ın temalarında yaşayan küçük kızlardır. Göz kırp
 </tr>
 <tr>
 <td valign="top">
-<h3><img src="docs/hundos/goth_head.svg" height="30"> Sürpriz yok, spoiler yok</h3>
+<h3><img src="docs/hundos/goth_head.png" height="30"> Sürpriz yok, spoiler yok</h3>
 <ul>
 <li><b>Kaçırılabilir başarım</b> uyarıları (yapay zekâ destekli: Gemini veya OpenAI)</li>
 <li>Rehber metinleri seçtiğin dile <b>otomatik çevrilir</b></li>
 <li><b>Spoiler koruması</b>: gizli başarımlar sen istemedikçe bulanık kalır</li>
 </ul>
-<h3><img src="docs/hundos/moon_head.svg" height="30"> Tüm koleksiyonun</h3>
+<h3><img src="docs/hundos/moon_head.png" height="30"> Tüm koleksiyonun</h3>
 <ul>
 <li>Her oyunun ilerlemesi ve <b>%100'e en yakınlar</b> ile kütüphane</li>
 <li>Son 14 günün başarım grafiği</li>
@@ -130,13 +180,12 @@ Hundolar, HundoHunter'ın temalarında yaşayan küçük kızlardır. Göz kırp
 <li>Birden fazla Steam hesabı, tek tıkla geçiş</li>
 </ul>
 </td>
-<td valign="top"><img src="docs/img/toast.png" alt="Başarım kutlaması" width="100%"></td>
+<td valign="top"><img src="docs/img/hub_friends.png" alt="Friends" width="100%"></td>
 </tr>
 </table>
 
 <p align="center">
-  <img src="docs/img/library.png" alt="Kütüphane" width="45%">&nbsp;&nbsp;
-  <img src="docs/img/friends.png" alt="Arkadaş sıralaması (isimler bulanık)" width="45%">
+  <img src="docs/img/hub.png" alt="Library" width="100%">
 </p>
 
 ## 🏆 Kupa seviyeleri ve Y Puanı
@@ -153,12 +202,12 @@ Her başarım, oyuncuların yüzde kaçının açtığına göre bir kupa seviye
 
 Bir oyunu %100 bitirirsen **+50 bonus**. Rütbe atla: Çaylak → Bronz Avcı → Gümüş Avcı → Altın Avcı → Safir Usta → Elmas Usta → **Efsane**.
 
-## 🎨 32 tema (ve birkaç sır)
+## 🎨 35 tema (ve birkaç sır)
 
 Temaların çoğu hareketli. Hundolar **Kedi Kız**, **Ay Işığı**, **Neon Ritim** ve **Gotik Prenses** temalarında yaşıyor, maskot arkadaşları da var. Hatta **kendi arka plan resmini** de koyabilirsin: temayla birlikte ya da tek başına.
 
 <p align="center">
-  <img src="docs/img/themes.png" alt="Tema galerisi" width="820">
+  <img src="docs/img/themes_tr.png" alt="Tema galerisi" width="100%">
 </p>
 
 > 🤫 Bazı temalar listede görünmüyor. Söylentiye göre Hundolar şifreleri sadece gerçek avcılara fısıldıyormuş...
@@ -198,6 +247,9 @@ Tüm kısayollar ayarlardan değiştirilebilir. Kompakt mod ve yenilemenin varsa
 - Ekran görüntüleri ve paylaşım kartları Resimler klasörüne kaydedilir; hiçbir şey yüklenmez.
 - Discord durumu isteğe bağlıdır ve sadece bilgisayarındaki Discord uygulaması üzerinden gider.
 - Hata bildirimi, göndermeden önce okuyabileceğin bir GitHub kaydı açar. API anahtarları, Steam kimlikleri, e-posta adresleri ve kullanıcı adın gizlenir.
+- Telefon sayfası sadece kendi ağında çalışır ve QR koddaki gizli anahtarı ister.
+- Discord webhook adresin, API anahtarların gibi şifreli saklanır.
+- Twitch sohbeti anonim ve salt okunur okunur; HundoHunter sohbetine asla yazmaz.
 
 ## ❓ Sorun giderme
 
@@ -208,10 +260,12 @@ Tüm kısayollar ayarlardan değiştirilebilir. Kompakt mod ve yenilemenin varsa
 | Başarım geç düşüyor | Steam açık mı, oyunu Steam üzerinden mi başlattın? |
 | Yanlış oyun algılandı | *Oyunu elle seç* kutusuna oyunun AppID'sini (mağaza bağlantısındaki sayı) yaz. |
 | Pencere kayboldu | `Ctrl` + `H`'ye bas ya da tepsi simgesine tıkla. |
+| Telefon sayfası açılmıyor | Telefonun aynı Wi-Fi'da olsun ve güvenlik duvarında HundoHunter'a (özel ağlar) izin ver. |
+| Discord paylaşımları gelmiyor | Ayarlar'daki <b>Test gönder</b>'i dene; webhook adresinin tam olduğunu ve kanalın hâlâ var olduğunu kontrol et. |
 
 ## 💝 HundoHunter'a destek ol
 
-<p align="center"><img src="docs/hundos/idol_head.svg" height="56"></p>
+<p align="center"><img src="docs/hundos/idol_head.png" height="56"></p>
 
 HundoHunter ücretsiz ve sevgiyle yapıldı. Bir hundoyu bitirmene yardım ettiyse Hundolara bir ikram ısmarlayabilirsin! Her destek yeni temaların, özelliklerin ve Hundoların gelmesini sağlar.
 
@@ -220,13 +274,31 @@ HundoHunter ücretsiz ve sevgiyle yapıldı. Bir hundoyu bitirmene yardım ettiy
   <a href="https://buymeacoffee.com/HundoHunter"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-%F0%9F%92%96-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee"></a>
 </p>
 
+<details>
+<summary><b>Önceki: v4.1'de gelenler</b></summary>
+
+- **Büyük pencere** (`Ctrl` + `Shift` + `A`): tüm oyunların ve başarımların yan yana; filtreler, sıralama, rehberler, notlar ve arkadaşlar. Arama, sahip olduğun her oyunu bulur (hiç açmadıkların dahil) ve yazım hatalarını affeder.
+- **Takip listeleri**: istediğin oyunlardan başarımları isimli listelerde topla. Küçük HUD seçtiğin listeyi gösterir.
+- **%100 yol haritası**: yapay zekâ oyunun başarımlarını mantıklı aşamalara ayırır; kaçırılabilecekler önce, grind işleri en sona.
+- **Arkadaşlar sekmesi**: her oyun için sıralama, "onlar aldı, sen almadın", kim neyi ne zaman aldı; bir arkadaşın seni geçince de haber verir.
+- **İstatistikler ve oturum özeti**: toplamlar, seri ve aylık grafik; her oyun oturumundan sonra kısa bir kart.
+- **Paylaşım kartı**: temanın renklerinde 1200×630 ilerleme görseli, başarımı açtığın anda alınan ekran görüntüsüyle.
+- **Yayıncı modu**: OBS / Streamlabs için saydam overlay sayfası (Tarayıcı kaynağı).
+- **Discord durumu**, **kumandayla aç/kapat** (Xbox, PlayStation, Steam Deck; Windows ve Linux) ve **Steam Deck Oyun Modu** desteği.
+- **Gizli başarım açıklamaları** Steam'in kendi verisinden doldurulur; sen isteyene kadar bulanık kalır.
+- **Tek tıkla güncelleme** (SHA256 ile doğrulanır) ve anahtarlarını, kimliklerini gizleyen **hata bildir** butonu.
+- **4 yeni dil**: Português (BR), Polski, 한국어 ve Italiano (toplam 12).
+- **32 tema**, 8'i yeni: Cam, Okyanus Derinliği, Galaksi, Gün Batımı, Yağmurlu Cam, Mermer ve Altın, Terminal, İstanbul (Boğaz). Tüm temalar baştan çizildi, animasyonlar daha akıcı ve hafif.
+
+</details>
+
 ## 📜 Yasal ve emeği geçenler
 
 HundoHunter bağımsız bir hayran projesidir; **Valve Corporation veya Steam ile bağlantısı yoktur**. Steam ve Steam logosu Valve Corporation'ın ticari markalarıdır. Oyun ve başarım verileri Steam Web API üzerinden alınır.
 
-Hundolar ve tüm tema çizimleri HundoHunter için yapılmış özgün vektör çizimlerdir. "Press Start 2P" yazı tipi: CodeMan38, SIL Open Font License 1.1. "Mr Dafoe" yazı tipi: Alejandro Paul (Sudtipos), SIL Open Font License 1.1. Simgeler: Pictogrammers'ın Material Design Icons seti, Apache License 2.0.
+Hundolar ve tüm tema çizimleri HundoHunter için yapılmış özgün vektör çizimlerdir. "Press Start 2P" yazı tipi: CodeMan38, SIL Open Font License 1.1. "Mr Dafoe" yazı tipi: Alejandro Paul (Sudtipos), SIL Open Font License 1.1. Simgeler: Pictogrammers'ın Material Design Icons seti, Apache License 2.0. Üç piksel tema, HundoHunter için çizilmiş özgün piksel sanattır.
 
 <p align="center">
   💖 ile yapan: <b>Wavemint</b><br>
-  <img src="docs/hundos/neko_head.svg" height="40"><img src="docs/hundos/moon_head.svg" height="40"><img src="docs/hundos/idol_head.svg" height="40"><img src="docs/hundos/goth_head.svg" height="40">
+  <img src="docs/hundos/neko_head.png" height="40"><img src="docs/hundos/moon_head.png" height="40"><img src="docs/hundos/idol_head.png" height="40"><img src="docs/hundos/goth_head.png" height="40"><img src="docs/hundos/bat_head.png" height="40"><img src="docs/hundos/cloud_head.png" height="40">
 </p>

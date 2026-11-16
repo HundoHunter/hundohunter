@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="HundoHunter: your cute companions on the road to 100%" width="100%">
+  <img src="docs/banner.png" alt="HundoHunter" width="100%">
 </p>
 
 <p align="center">
@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
   <img src="https://img.shields.io/badge/Steam-achievements-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   <img src="https://img.shields.io/badge/languages-12-b48cff?style=for-the-badge" alt="12">
+  <img src="https://img.shields.io/badge/35%20themes-ffb86b?style=for-the-badge" alt="35">
 </p>
 
 <p align="center">
@@ -15,47 +16,77 @@
 
 ---
 
+<p align="center">
+  <img src="docs/gif/opening.gif" alt="HundoHunter" width="460">
+</p>
+
 **HundoHunter** is a small overlay that sits in the corner of your screen while you play. It recognizes the Steam game you're running and tells you **which achievement to chase next**, **how to get it**, and **which ones you could miss forever**. One goal: 100% every game, a *hundo*.
 
 And you're never hunting alone. Meet the **Hundos** 💖
 
 <p align="center">
-  <img src="docs/hundos/group.svg" alt="Hundos" width="640">
+  <img src="docs/hundos/group.png" alt="Hundos" width="100%">
 </p>
 
 ## 🆕 New in v4.2
 
-- **Hundo Wrapped**: a year-in-review card (1080×1350) with your achievements, 100%s, rarest unlock, game of the year, monthly chart and hunter type.
-- **Badges and rank progress**: 18 badges with progress bars, plus how far you are from the next rank.
-- **Weekly quest**: a rare but doable achievement from a game you play, worth +100 Y if you unlock it that week.
-- **"Almost there" alerts** for progress achievements and a **time-to-100% estimate** based on your own pace.
-- **Phone as a second screen**: scan a QR code and your phone shows the HUD; tap an achievement to make it your target. Local network only, with a secret key.
-- **Discord channel posts** through a webhook: rare unlocks, every unlock or only 100%s, with your share card.
-- **Streamer mode, upgraded**: a new OBS overlay with a setup & preview page, a stream goal, tier-colored alerts with confetti, a test alert, and **Twitch chat commands** (`!target`, `!progress`, `!rarest`).
-- **One-click update** from Settings, and smoother animations in every theme.
+<h3>🎁 Your year, your rank</h3>
 
-## 🆕 New in v4.1
+<table>
+<tr>
+<td width="44%" valign="top"><img src="docs/img/wrapped_en.png" alt="Hundo Wrapped" width="100%"></td>
+<td valign="top"><img src="docs/img/stats_en.png" alt="Stats" width="100%">
+<ul>
+<li><b>Hundo Wrapped</b>: a year-in-review card (1080×1350) with your achievements, 100%s, rarest unlock, game of the year, monthly chart and hunter type.</li>
+<li><b>Badges and rank progress</b>: 18 badges with progress bars, plus how far you are from the next rank.</li>
+<li><b>Weekly quest</b>: a rare but doable achievement from a game you play, worth +100 Y if you unlock it that week.</li>
+<li><b>"Almost there" alerts</b> for progress achievements and a <b>time-to-100% estimate</b> based on your own pace.</li>
+</ul>
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <img src="docs/img/hub.png" alt="The big window" width="100%">
-</p>
-
-- **The big window** (`Ctrl` + `Shift` + `A`): all your games and achievements side by side, with filters, sorting, guides, notes and friends. Search finds every game you own, even ones you've never launched, and forgives typos.
-- **Tracking lists**: collect achievements from any game into named lists. The small HUD shows the list you pick.
-- **100% roadmap**: AI splits a game's achievements into sensible stages, missables first and grind last.
-- **Friends tab**: a ranking for each game, "they have it, you don't", who unlocked what and when, plus an alert when a friend passes you.
-- **Stats and session summary**: totals, streak and a monthly chart, and a short card after each play session.
-- **Share card**: a 1200×630 progress image in your theme's colors, with a screenshot taken the moment you unlocked.
-- **Streamer mode**: a transparent overlay page for OBS / Streamlabs (Browser Source).
-- **Discord status**, a **controller toggle** (Xbox, PlayStation, Steam Deck; Windows and Linux) and **Steam Deck Game Mode** support.
-- **Hidden achievement descriptions** are filled in from Steam's own data, still blurred until you ask.
-- **One-click updates**, verified with SHA256, and a **bug report** button that hides your keys and IDs.
-- **4 new languages**: Português (BR), Polski, 한국어 and Italiano (12 in total).
-- **32 themes**, 8 of them new: Glass, Deep Ocean, Galaxy, Sunset, Rainy Window, Marble & Gold, Terminal, Istanbul (Bosphorus). Every theme was redrawn, and animations are smoother and lighter.
+<h3>📺 Streamer mode & second screen</h3>
 
 <p align="center">
-  <img src="docs/img/hub_friends.png" alt="Friends tab" width="100%">
+  <img src="docs/gif/obs.gif" alt="OBS overlay" width="100%">
 </p>
+
+<table>
+<tr>
+<td width="66%" valign="top"><img src="docs/img/obs_setup.png" alt="Stream overlay setup" width="100%">
+<ul>
+<li><b>Streamer mode, upgraded</b>: a new OBS overlay with a setup & preview page, a stream goal, tier-colored alerts with confetti, a test alert, and <b>Twitch chat commands</b> (<code>!target</code>, <code>!progress</code>, <code>!rarest</code>).</li>
+<li><b>Discord channel posts</b> through a webhook: rare unlocks, every unlock or only 100%s, with your share card.</li>
+</ul>
+</td>
+<td valign="top"><img src="docs/img/phone.png" alt="Phone" width="100%">
+<ul>
+<li><b>Phone as a second screen</b>: scan a QR code and your phone shows the HUD; tap an achievement to make it your target. Local network only, with a secret key.</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<h3>✨ And also</h3>
+
+<ul>
+<li><b>Three new pixel-art themes</b> with hand-drawn, story-like animations: Ember & Steel, Moon Pond and Star Drifter.</li>
+<li>A brand-new <b>opening animation</b>: a translucent wave carries the trophies in and writes the name. Animations now run at <b>60 fps</b>, with a slim themed scrollbar.</li>
+<li><b>One-click update</b> from Settings, and smoother animations in every theme.</li>
+</ul>
+
+## 🕹️ Three new pixel themes
+
+Hand-drawn pixel art, each with a little story that loops every few seconds.
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top"><img src="docs/gif/ember.gif" alt="Ember & Steel" width="100%"><br><b>Ember & Steel</b><br><sub>A wounded knight rests by a bonfire with a sword in the flames.</sub></td>
+<td width="33%" align="center" valign="top"><img src="docs/gif/pond.gif" alt="Moon Pond" width="100%"><br><b>Moon Pond</b><br><sub>A frog by a moonlit pond, fireflies and jumping fish.</sub></td>
+<td width="33%" align="center" valign="top"><img src="docs/gif/drift.gif" alt="Star Drifter" width="100%"><br><b>Star Drifter</b><br><sub>A little astronaut plants a flag on a drifting rock.</sub></td>
+</tr>
+</table>
 
 ## 💖 Meet the Hundos
 
@@ -63,31 +94,50 @@ The Hundos are the little girls who live in HundoHunter's themes. They blink, sw
 
 <table>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/neko.svg" width="180" alt="Neko"><br><b>Neko</b></td>
+<td width="200" align="center"><img src="docs/hundos/neko.png" width="180" alt="Neko"><br><b>Neko</b></td>
 <td>
 <b>The tracker.</b> Neko sniffs out your <b>next achievement</b> the moment a game starts, with its description and a guide hint. Her ears twitch when something is close (e.g. <code>32/50</code> progress achievements).
 <br><br><i>"Nyaa~ only three more and it's yours!"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/moon.svg" width="180" alt="Moonlight"><br><b>Moonlight</b></td>
+<td width="200" align="center"><img src="docs/hundos/moon.png" width="180" alt="Moonlight"><br><b>Moonlight</b></td>
 <td>
 <b>The quiet keeper.</b> Moonlight watches over your <b>library</b>, your <b>14-day history</b> and the games <b>closest to 100%</b>, so you always know which hundo is within reach.
 <br><br><i>"Stardew Valley is at 86%... shall we finish it tonight?"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/idol.svg" width="180" alt="Neon Rhythm"><br><b>Neon Rhythm</b></td>
+<td width="200" align="center"><img src="docs/hundos/idol.png" width="180" alt="Neon Rhythm"><br><b>Neon Rhythm</b></td>
 <td>
 <b>The cheerleader.</b> When an achievement pops, she's the first to know: <b>instant detection</b>, at the very same moment as Steam's own notification. Trophy sound, a toast, a jump, and your <b>Y Score</b> goes up.
 <br><br><i>"Diamond trophy!! Less than 1% of players have this one!"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/goth.svg" width="180" alt="Gothic Princess"><br><b>Gothic Princess</b></td>
+<td width="200" align="center"><img src="docs/hundos/goth.png" width="180" alt="Gothic Princess"><br><b>Gothic Princess</b></td>
 <td>
 <b>The guardian.</b> She warns you about <b>missable achievements</b> before it's too late (AI-assisted detection) and keeps <b>hidden achievements blurred</b> so nothing gets spoiled.
 <br><br><i>"Careful. Once you leave this chapter, that trophy is gone."</i>
+</td>
+</tr>
+</table>
+
+And their two little mascot friends:
+
+<table>
+<tr>
+<td width="200" align="center"><img src="docs/hundos/bat.png" width="160" alt="Midnight Bat"><br><b>Midnight Bat</b></td>
+<td>
+<b>The night owl.</b> She keeps the <b>stream overlay</b> company after dark: goal bar, LIVE badge and confetti alerts for your viewers.
+<br><br><i>"Chat, did you see that? Sapphire trophy!"</i>
+</td>
+</tr>
+<tr>
+<td width="200" align="center"><img src="docs/hundos/cloud.png" width="160" alt="Cotton Cloud"><br><b>Cotton Cloud</b></td>
+<td>
+<b>The dreamer.</b> Cotton Cloud floats over your <b>stats</b>: badges, weekly quest and your <b>Hundo Wrapped</b> at the end of the year.
+<br><br><i>"Only 4 more badges... we can do it~"</i>
 </td>
 </tr>
 </table>
@@ -98,7 +148,7 @@ The Hundos are the little girls who live in HundoHunter's themes. They blink, sw
 <tr>
 <td width="50%" valign="top"><img src="docs/img/main_en.png" alt="In-game overlay" width="100%"></td>
 <td valign="top">
-<h3><img src="docs/hundos/neko_head.svg" height="30"> In-game guide</h3>
+<h3><img src="docs/hundos/neko_head.png" height="30"> In-game guide</h3>
 <ul>
 <li>Detects the running Steam game automatically</li>
 <li><b>Next target achievement</b> with description, rarity and guide hint</li>
@@ -106,7 +156,7 @@ The Hundos are the little girls who live in HundoHunter's themes. They blink, sw
 <li>Track any achievement as your target, add personal notes</li>
 <li>Works on top of games in <b>borderless / windowed fullscreen</b></li>
 </ul>
-<h3><img src="docs/hundos/idol_head.svg" height="30"> Instant unlocks</h3>
+<h3><img src="docs/hundos/idol_head.png" height="30"> Instant unlocks</h3>
 <ul>
 <li>Reads Steam's own local records: unlocks appear <b>the second Steam shows them</b></li>
 <li>Works even if your <i>Game details</i> are private</li>
@@ -116,13 +166,13 @@ The Hundos are the little girls who live in HundoHunter's themes. They blink, sw
 </tr>
 <tr>
 <td valign="top">
-<h3><img src="docs/hundos/goth_head.svg" height="30"> No surprises, no spoilers</h3>
+<h3><img src="docs/hundos/goth_head.png" height="30"> No surprises, no spoilers</h3>
 <ul>
 <li><b>Missable achievement</b> warnings (AI-assisted: Gemini or OpenAI)</li>
 <li>Guide texts <b>auto-translated</b> to your language</li>
 <li><b>Spoiler protection</b>: hidden achievements stay blurred until you ask</li>
 </ul>
-<h3><img src="docs/hundos/moon_head.svg" height="30"> Your whole collection</h3>
+<h3><img src="docs/hundos/moon_head.png" height="30"> Your whole collection</h3>
 <ul>
 <li>Library with every game's progress and the <b>closest to 100%</b></li>
 <li>14-day unlock history graph</li>
@@ -130,13 +180,12 @@ The Hundos are the little girls who live in HundoHunter's themes. They blink, sw
 <li>Multiple Steam accounts, switch with one click</li>
 </ul>
 </td>
-<td valign="top"><img src="docs/img/toast.png" alt="Unlock celebration" width="100%"></td>
+<td valign="top"><img src="docs/img/hub_friends.png" alt="Friends" width="100%"></td>
 </tr>
 </table>
 
 <p align="center">
-  <img src="docs/img/library.png" alt="Library" width="45%">&nbsp;&nbsp;
-  <img src="docs/img/friends.png" alt="Friends leaderboard (names blurred)" width="45%">
+  <img src="docs/img/hub.png" alt="Library" width="100%">
 </p>
 
 ## 🏆 Trophy tiers & Y Score
@@ -153,12 +202,12 @@ Every achievement gets a tier based on how many players have unlocked it, and ea
 
 Finish a game at 100% for a **+50 bonus**. Climb the ranks: Rookie → Bronze Hunter → Silver Hunter → Gold Hunter → Sapphire Master → Diamond Master → **Legend**.
 
-## 🎨 32 themes (and a few secrets)
+## 🎨 35 themes (and a few secrets)
 
 Most themes are animated. The Hundos live in **Neko**, **Moonlight**, **Neon Rhythm** and **Gothic Princess**, and they've got mascot friends too. You can even set **your own background image**, together with a theme or on its own.
 
 <p align="center">
-  <img src="docs/img/themes.png" alt="Theme gallery" width="820">
+  <img src="docs/img/themes_en.png" alt="Theme gallery" width="100%">
 </p>
 
 > 🤫 Some themes don't show up in the list. Rumor has it the Hundos whisper the passwords to true hunters...
@@ -198,6 +247,9 @@ All hotkeys can be changed in the settings. Compact mode and refresh have no key
 - Screenshots and share cards are saved to your Pictures folder; nothing is uploaded.
 - Discord status is optional and only goes through the Discord app on your computer.
 - The bug report opens a GitHub issue you can read before sending. API keys, Steam IDs, e-mail addresses and your user name are masked.
+- The phone page works only on your own network and needs a secret key from the QR code.
+- Your Discord webhook address is stored encrypted, like your API keys.
+- Twitch chat is read anonymously and read-only; HundoHunter never posts in your chat.
 
 ## ❓ Troubleshooting
 
@@ -208,10 +260,12 @@ All hotkeys can be changed in the settings. Compact mode and refresh have no key
 | Unlocks show up late | Is Steam running, and did you start the game through Steam? |
 | Wrong game detected | Type the game's AppID (the number in its store link) into *Pick game manually*. |
 | Overlay disappeared | Press `Ctrl` + `H` or click the tray icon. |
+| Phone page doesn't open | Make sure your phone is on the same Wi-Fi and allow HundoHunter through your firewall (private networks). |
+| Discord posts don't appear | Use <b>Send test</b> in Settings; check that the webhook URL is complete and the channel still exists. |
 
 ## 💝 Support HundoHunter
 
-<p align="center"><img src="docs/hundos/idol_head.svg" height="56"></p>
+<p align="center"><img src="docs/hundos/idol_head.png" height="56"></p>
 
 HundoHunter is free and made with love. If it helped you finish a hundo, you can buy the Hundos a treat! Every bit keeps new themes, features and Hundos coming.
 
@@ -220,13 +274,31 @@ HundoHunter is free and made with love. If it helped you finish a hundo, you can
   <a href="https://buymeacoffee.com/HundoHunter"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-%F0%9F%92%96-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee"></a>
 </p>
 
+<details>
+<summary><b>Earlier: what came in v4.1</b></summary>
+
+- **The big window** (`Ctrl` + `Shift` + `A`): all your games and achievements side by side, with filters, sorting, guides, notes and friends. Search finds every game you own, even ones you've never launched, and forgives typos.
+- **Tracking lists**: collect achievements from any game into named lists. The small HUD shows the list you pick.
+- **100% roadmap**: AI splits a game's achievements into sensible stages, missables first and grind last.
+- **Friends tab**: a ranking for each game, "they have it, you don't", who unlocked what and when, plus an alert when a friend passes you.
+- **Stats and session summary**: totals, streak and a monthly chart, and a short card after each play session.
+- **Share card**: a 1200×630 progress image in your theme's colors, with a screenshot taken the moment you unlocked.
+- **Streamer mode**: a transparent overlay page for OBS / Streamlabs (Browser Source).
+- **Discord status**, a **controller toggle** (Xbox, PlayStation, Steam Deck; Windows and Linux) and **Steam Deck Game Mode** support.
+- **Hidden achievement descriptions** are filled in from Steam's own data, still blurred until you ask.
+- **One-click updates**, verified with SHA256, and a **bug report** button that hides your keys and IDs.
+- **4 new languages**: Português (BR), Polski, 한국어 and Italiano (12 in total).
+- **32 themes**, 8 of them new: Glass, Deep Ocean, Galaxy, Sunset, Rainy Window, Marble & Gold, Terminal, Istanbul (Bosphorus). Every theme was redrawn, and animations are smoother and lighter.
+
+</details>
+
 ## 📜 Legal & credits
 
 HundoHunter is an independent fan project and is **not affiliated with Valve Corporation or Steam**. Steam and the Steam logo are trademarks of Valve Corporation. Game and achievement data come from the Steam Web API.
 
-The Hundos and all theme artwork are original vector drawings made for HundoHunter. "Press Start 2P" font by CodeMan38, SIL Open Font License 1.1. "Mr Dafoe" font by Alejandro Paul (Sudtipos), SIL Open Font License 1.1. Icons from Material Design Icons by Pictogrammers, Apache License 2.0.
+The Hundos and all theme artwork are original vector drawings made for HundoHunter. "Press Start 2P" font by CodeMan38, SIL Open Font License 1.1. "Mr Dafoe" font by Alejandro Paul (Sudtipos), SIL Open Font License 1.1. Icons from Material Design Icons by Pictogrammers, Apache License 2.0. The three pixel themes are original pixel art drawn for HundoHunter.
 
 <p align="center">
   Made with 💖 by <b>Wavemint</b><br>
-  <img src="docs/hundos/neko_head.svg" height="40"><img src="docs/hundos/moon_head.svg" height="40"><img src="docs/hundos/idol_head.svg" height="40"><img src="docs/hundos/goth_head.svg" height="40">
+  <img src="docs/hundos/neko_head.png" height="40"><img src="docs/hundos/moon_head.png" height="40"><img src="docs/hundos/idol_head.png" height="40"><img src="docs/hundos/goth_head.png" height="40"><img src="docs/hundos/bat_head.png" height="40"><img src="docs/hundos/cloud_head.png" height="40">
 </p>
