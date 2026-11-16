@@ -1,12 +1,13 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="HundoHunter: tus adorables compañeras en el camino al 100%" width="100%">
+  <img src="docs/banner.png" alt="HundoHunter" width="100%">
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/descargar-v4.1.0-ff7aa8?style=for-the-badge" alt="descargar"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/download-v4.2.0-ff7aa8?style=for-the-badge" alt="download"></a>
   <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-3ce0d0?style=for-the-badge" alt="Windows | Linux | macOS">
-  <img src="https://img.shields.io/badge/Steam-logros-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
-  <img src="https://img.shields.io/badge/idiomas-12-b48cff?style=for-the-badge" alt="12">
+  <img src="https://img.shields.io/badge/Steam-achievements-1b2838?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
+  <img src="https://img.shields.io/badge/languages-12-b48cff?style=for-the-badge" alt="12">
+  <img src="https://img.shields.io/badge/35%20temas-ffb86b?style=for-the-badge" alt="35">
 </p>
 
 <p align="center">
@@ -15,36 +16,77 @@
 
 ---
 
+<p align="center">
+  <img src="docs/gif/opening.gif" alt="HundoHunter" width="460">
+</p>
+
 **HundoHunter** es una pequeña ventana superpuesta que se queda en una esquina de la pantalla mientras juegas. Reconoce el juego de Steam que tienes abierto y te dice **qué logro conseguir después**, **cómo conseguirlo** y **cuáles podrías perder para siempre**. Un solo objetivo: completar cada juego al 100%, un *hundo*.
 
 Y nunca cazas solo. Te presentamos a las **Hundos** 💖
 
 <p align="center">
-  <img src="docs/hundos/group.svg" alt="Hundos" width="640">
+  <img src="docs/hundos/group.png" alt="Hundos" width="100%">
 </p>
 
-## 🆕 Novedades de la v4.1
+## 🆕 Novedades de la v4.2
+
+<h3>🎁 Tu año, tu rango</h3>
+
+<table>
+<tr>
+<td width="44%" valign="top"><img src="docs/img/wrapped_es.png" alt="Hundo Wrapped" width="100%"></td>
+<td valign="top"><img src="docs/img/stats_en.png" alt="Stats" width="100%">
+<ul>
+<li><b>Hundo Wrapped</b>: resumen del año (1080×1350) con tus logros, 100 %, el más raro, juego del año, gráfico mensual y tu tipo de cazador.</li>
+<li><b>Insignias y progreso de rango</b>: 18 insignias con barras de progreso y cuánto te falta para el siguiente rango.</li>
+<li><b>Misión semanal</b>: un logro raro pero asequible de un juego tuyo; +100 Y si lo consigues esa semana.</li>
+<li><b>Avisos de "casi lo tienes"</b> en logros con progreso y una <b>estimación del tiempo hasta el 100 %</b> según tu ritmo.</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<h3>📺 Modo streamer y segunda pantalla</h3>
 
 <p align="center">
-  <img src="docs/img/hub.png" alt="La ventana grande" width="100%">
+  <img src="docs/gif/obs.gif" alt="OBS overlay" width="100%">
 </p>
 
-- **La ventana grande** (`Ctrl` + `Shift` + `A`): todos tus juegos y logros lado a lado, con filtros, orden, guías, notas y amigos. La búsqueda encuentra cualquier juego que tengas, incluso los que nunca abriste, y perdona las erratas.
-- **Listas de seguimiento**: reúne logros de cualquier juego en listas con nombre. El HUD pequeño muestra la lista que elijas.
-- **Ruta al 100 %**: la IA divide los logros de un juego en etapas lógicas, primero los que se pueden perder y al final el farmeo.
-- **Pestaña de amigos**: clasificación por juego, "ellos lo tienen y tú no", quién consiguió qué y cuándo, y un aviso cuando un amigo te adelanta.
-- **Estadísticas y resumen de sesión**: totales, racha y gráfico mensual, y una tarjeta breve después de cada sesión de juego.
-- **Tarjeta para compartir**: una imagen de progreso de 1200×630 con los colores de tu tema y la captura tomada en el momento del logro.
-- **Modo streamer**: una página de overlay transparente para OBS / Streamlabs (fuente de navegador).
-- **Estado en Discord**, **mostrar/ocultar con mando** (Xbox, PlayStation, Steam Deck; Windows y Linux) y soporte para el **Modo Juego de Steam Deck**.
-- **Descripciones de logros ocultos** tomadas de los datos de Steam, que siguen borrosas hasta que las pidas.
-- **Actualización con un clic**, verificada con SHA256, y un botón para **informar de errores** que oculta tus claves e ID.
-- **4 idiomas nuevos**: Português (BR), Polski, 한국어 e Italiano (12 en total).
-- **32 temas**, 8 de ellos nuevos: Cristal, Océano profundo, Galaxia, Atardecer, Lluvia en el cristal, Mármol y oro, Terminal, Estambul (Bósforo). Todos los temas se redibujaron y las animaciones son más fluidas y ligeras.
+<table>
+<tr>
+<td width="66%" valign="top"><img src="docs/img/obs_setup.png" alt="Stream overlay setup" width="100%">
+<ul>
+<li><b>Modo streamer renovado</b>: nuevo overlay de OBS con página de configuración y vista previa, meta del directo, alertas del color del trofeo con confeti, alerta de prueba y <b>comandos del chat de Twitch</b> (<code>!target</code>, <code>!progress</code>, <code>!rarest</code>).</li>
+<li><b>Publicaciones en un canal de Discord</b> mediante webhook: logros raros, todos o solo 100 %, con tu tarjeta.</li>
+</ul>
+</td>
+<td valign="top"><img src="docs/img/phone.png" alt="Phone" width="100%">
+<ul>
+<li><b>El teléfono como segunda pantalla</b>: escanea un QR y verás el HUD en el móvil; toca un logro para fijarlo como objetivo. Solo en tu red y con clave secreta.</li>
+</ul>
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <img src="docs/img/hub_friends.png" alt="Pestaña de amigos" width="100%">
-</p>
+<h3>✨ Y además</h3>
+
+<ul>
+<li><b>Tres nuevos temas pixel art</b> con animaciones dibujadas a mano que cuentan una pequeña historia: Brasas y acero, Estanque lunar y Viajero estelar.</li>
+<li>Una nueva <b>animación de apertura</b>: una ola translúcida trae los trofeos y escribe el nombre. Las animaciones van a <b>60 fps</b>, con una barra de desplazamiento fina del color del tema.</li>
+<li><b>Actualización con un clic</b> desde Ajustes y animaciones más fluidas en todos los temas.</li>
+</ul>
+
+## 🕹️ Tres nuevos temas pixel
+
+Pixel art dibujado a mano; cada uno tiene una pequeña historia que se repite cada pocos segundos.
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top"><img src="docs/gif/ember.gif" alt="Brasas y acero" width="100%"><br><b>Brasas y acero</b><br><sub>Un caballero herido descansa junto a una hoguera con una espada entre las llamas.</sub></td>
+<td width="33%" align="center" valign="top"><img src="docs/gif/pond.gif" alt="Estanque lunar" width="100%"><br><b>Estanque lunar</b><br><sub>Una rana junto a un estanque a la luz de la luna, luciérnagas y peces saltando.</sub></td>
+<td width="33%" align="center" valign="top"><img src="docs/gif/drift.gif" alt="Viajero estelar" width="100%"><br><b>Viajero estelar</b><br><sub>Un pequeño astronauta clava su bandera en una roca a la deriva.</sub></td>
+</tr>
+</table>
 
 ## 💖 Conoce a las Hundos
 
@@ -52,31 +94,50 @@ Las Hundos son las niñas que viven en los temas de HundoHunter. Parpadean, se b
 
 <table>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/neko.svg" width="180" alt="Neko"><br><b>Neko</b></td>
+<td width="200" align="center"><img src="docs/hundos/neko.png" width="180" alt="Neko"><br><b>Neko</b></td>
 <td>
 <b>La rastreadora.</b> Neko olfatea tu <b>próximo logro</b> en cuanto empieza el juego, con su descripción y una pista de la guía. Sus orejas se mueven cuando algo está cerca (por ejemplo, logros con progreso <code>32/50</code>).
 <br><br><i>"Nyaa~ ¡solo tres más y es tuyo!"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/moon.svg" width="180" alt="Luz de Luna"><br><b>Luz de Luna</b></td>
+<td width="200" align="center"><img src="docs/hundos/moon.png" width="180" alt="Luz de Luna"><br><b>Luz de Luna</b></td>
 <td>
 <b>La guardiana tranquila.</b> Luz de Luna cuida tu <b>biblioteca</b>, tu <b>historial de 14 días</b> y los juegos <b>más cerca del 100%</b>, para que siempre sepas qué hundo tienes al alcance.
 <br><br><i>"Stardew Valley está al 86%... ¿lo terminamos esta noche?"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/idol.svg" width="180" alt="Ritmo Neón"><br><b>Ritmo Neón</b></td>
+<td width="200" align="center"><img src="docs/hundos/idol.png" width="180" alt="Ritmo Neón"><br><b>Ritmo Neón</b></td>
 <td>
 <b>La animadora.</b> Cuando salta un logro, ella es la primera en enterarse: <b>detección instantánea</b>, en el mismo segundo que la notificación de Steam. Sonido de trofeo, aviso, un salto y tu <b>puntuación Y</b> sube.
 <br><br><i>"¡¡Trofeo de diamante!! ¡Menos del 1% de los jugadores lo tiene!"</i>
 </td>
 </tr>
 <tr>
-<td width="200" align="center"><img src="docs/hundos/goth.svg" width="180" alt="Princesa Gótica"><br><b>Princesa Gótica</b></td>
+<td width="200" align="center"><img src="docs/hundos/goth.png" width="180" alt="Princesa Gótica"><br><b>Princesa Gótica</b></td>
 <td>
 <b>La protectora.</b> Te avisa de los <b>logros que se pueden perder</b> antes de que sea tarde (detección con IA) y mantiene <b>borrosos los logros ocultos</b> para que nada se destripe.
 <br><br><i>"Cuidado. Si sales de este capítulo, ese trofeo se pierde para siempre."</i>
+</td>
+</tr>
+</table>
+
+Y sus dos pequeñas mascotas amigas:
+
+<table>
+<tr>
+<td width="200" align="center"><img src="docs/hundos/bat.png" width="160" alt="Murciélago nocturno"><br><b>Murciélago nocturno</b></td>
+<td>
+<b>La noctámbula.</b> Acompaña al <b>overlay del stream</b>: barra de objetivo, insignia EN VIVO y alertas con confeti para tus espectadores.
+<br><br><i>"Chat, ¿lo visteis? ¡Trofeo de zafiro!"</i>
+</td>
+</tr>
+<tr>
+<td width="200" align="center"><img src="docs/hundos/cloud.png" width="160" alt="Nube de algodón"><br><b>Nube de algodón</b></td>
+<td>
+<b>La soñadora.</b> Nube de algodón flota sobre tus <b>estadísticas</b>: insignias, misión semanal y tu <b>Hundo Wrapped</b> a fin de año.
+<br><br><i>"Solo faltan 4 insignias... ¡podemos~!"</i>
 </td>
 </tr>
 </table>
@@ -87,7 +148,7 @@ Las Hundos son las niñas que viven en los temas de HundoHunter. Parpadean, se b
 <tr>
 <td width="50%" valign="top"><img src="docs/img/main_es.png" alt="Ventana en el juego" width="100%"></td>
 <td valign="top">
-<h3><img src="docs/hundos/neko_head.svg" height="30"> Guía dentro del juego</h3>
+<h3><img src="docs/hundos/neko_head.png" height="30"> Guía dentro del juego</h3>
 <ul>
 <li>Detecta automáticamente el juego de Steam en ejecución</li>
 <li><b>Próximo logro objetivo</b> con descripción, rareza y pista de la guía</li>
@@ -95,7 +156,7 @@ Las Hundos son las niñas que viven en los temas de HundoHunter. Parpadean, se b
 <li>Sigue cualquier logro como objetivo y añade tus notas</li>
 <li>Funciona encima de juegos en <b>ventana sin bordes / pantalla completa en ventana</b></li>
 </ul>
-<h3><img src="docs/hundos/idol_head.svg" height="30"> Desbloqueos al instante</h3>
+<h3><img src="docs/hundos/idol_head.png" height="30"> Desbloqueos al instante</h3>
 <ul>
 <li>Lee los registros locales del propio Steam: los logros aparecen <b>en el mismo segundo que en Steam</b></li>
 <li>Funciona aunque tus <i>Detalles de juegos</i> sean privados</li>
@@ -105,13 +166,13 @@ Las Hundos son las niñas que viven en los temas de HundoHunter. Parpadean, se b
 </tr>
 <tr>
 <td valign="top">
-<h3><img src="docs/hundos/goth_head.svg" height="30"> Sin sorpresas ni spoilers</h3>
+<h3><img src="docs/hundos/goth_head.png" height="30"> Sin sorpresas ni spoilers</h3>
 <ul>
 <li>Avisos de <b>logros perdibles</b> (con IA: Gemini u OpenAI)</li>
 <li>Textos de guía <b>traducidos automáticamente</b> a tu idioma</li>
 <li><b>Protección contra spoilers</b>: los logros ocultos siguen borrosos hasta que tú quieras</li>
 </ul>
-<h3><img src="docs/hundos/moon_head.svg" height="30"> Toda tu colección</h3>
+<h3><img src="docs/hundos/moon_head.png" height="30"> Toda tu colección</h3>
 <ul>
 <li>Biblioteca con el progreso de cada juego y los <b>más cercanos al 100%</b></li>
 <li>Gráfico de desbloqueos de 14 días</li>
@@ -119,13 +180,12 @@ Las Hundos son las niñas que viven en los temas de HundoHunter. Parpadean, se b
 <li>Varias cuentas de Steam, cambia con un clic</li>
 </ul>
 </td>
-<td valign="top"><img src="docs/img/toast.png" alt="Celebración de logro" width="100%"></td>
+<td valign="top"><img src="docs/img/hub_friends.png" alt="Friends" width="100%"></td>
 </tr>
 </table>
 
 <p align="center">
-  <img src="docs/img/library.png" alt="Biblioteca" width="45%">&nbsp;&nbsp;
-  <img src="docs/img/friends.png" alt="Clasificación de amigos (nombres difuminados)" width="45%">
+  <img src="docs/img/hub.png" alt="Library" width="100%">
 </p>
 
 ## 🏆 Niveles de trofeo y puntuación Y
@@ -142,12 +202,12 @@ Cada logro recibe un nivel según cuántos jugadores lo han desbloqueado, y cada
 
 Termina un juego al 100% para un **bonus de +50**. Sube de rango: Novato → Cazador de bronce → Cazador de plata → Cazador de oro → Maestro zafiro → Maestro diamante → **Leyenda**.
 
-## 🎨 32 temas (y algunos secretos)
+## 🎨 35 temas (y algunos secretos)
 
 La mayoría de los temas están animados. Las Hundos viven en **Neko**, **Luz de Luna**, **Ritmo Neón** y **Princesa Gótica**, y también tienen amigos mascota. Incluso puedes poner **tu propia imagen de fondo**, junto con un tema o sola.
 
 <p align="center">
-  <img src="docs/img/themes.png" alt="Galería de temas" width="820">
+  <img src="docs/img/themes_en.png" alt="Galería de temas" width="100%">
 </p>
 
 > 🤫 Algunos temas no aparecen en la lista. Dicen que las Hundos solo susurran las contraseñas a los verdaderos cazadores...
@@ -156,7 +216,7 @@ La mayoría de los temas están animados. Las Hundos viven en **Neko**, **Luz de
 
 1. 🪟 **Windows:** Descarga **HundoHunter.zip** desde la [última versión](../../releases/latest) y descomprímelo donde quieras.
 2. Ejecuta `HundoHunter.exe`. No hace falta instalar nada más: es un solo archivo con .NET incluido.<br>*Windows puede decir "Windows protegió su PC" porque la app no está firmada. Haz clic en **Más información → Ejecutar de todas formas**.*
-   - 🐧 **Linux:** descarga `HundoHunter-4.1.0-linux-x64.tar.gz`, descomprímelo y ejecuta `./install.sh` (añade HundoHunter al menú de aplicaciones). Funciona mejor en una sesión X11; en Wayland, los atajos y el modo siempre visible dependen de tu escritorio.
+   - 🐧 **Linux:** descarga `HundoHunter-4.2.0-linux-x64.tar.gz`, descomprímelo y ejecuta `./install.sh` (añade HundoHunter al menú de aplicaciones). Funciona mejor en una sesión X11; en Wayland, los atajos y el modo siempre visible dependen de tu escritorio.
    - 🍎 **macOS:** descarga el zip para tu Mac (`AppleSilicon` para M1–M4, `Intel` para Macs anteriores), descomprímelo y mueve `HundoHunter.app` a Aplicaciones. La app no está firmada: la primera vez, haz clic derecho y elige **Abrir**.
    - 🎮 **Steam Deck:** usa la versión de Linux. En el Modo Juego el HUD pequeño se dibuja encima del juego y se muestra u oculta con el mando. La ventana grande no está disponible en Steam Deck.
 3. Consigue una **clave de Steam Web API** gratuita en <https://steamcommunity.com/dev/apikey> (sirve cualquier dominio, p. ej. `localhost`) y pégala en los ajustes.
@@ -187,6 +247,9 @@ Todos los atajos se pueden cambiar en los ajustes. El modo compacto y la actuali
 - Las capturas y tarjetas se guardan en tu carpeta de Imágenes; no se sube nada.
 - El estado en Discord es opcional y solo pasa por la aplicación de Discord de tu ordenador.
 - El informe de errores abre una incidencia en GitHub que puedes leer antes de enviarla. Las claves API, los Steam ID, los correos y tu nombre de usuario se ocultan.
+- La página del móvil solo funciona en tu propia red y necesita la clave secreta del código QR.
+- La dirección del webhook de Discord se guarda cifrada, igual que tus claves API.
+- El chat de Twitch se lee de forma anónima y solo lectura; HundoHunter nunca escribe en tu chat.
 
 ## ❓ Solución de problemas
 
@@ -197,10 +260,12 @@ Todos los atajos se pueden cambiar en los ajustes. El modo compacto y la actuali
 | Los logros aparecen tarde | ¿Steam está abierto y has iniciado el juego desde Steam? |
 | Se detecta otro juego | Escribe el AppID del juego (el número de su enlace en la tienda) en *Elegir juego manualmente*. |
 | La ventana desapareció | Pulsa `Ctrl` + `H` o haz clic en el icono de la bandeja. |
+| La página del móvil no abre | El móvil debe estar en la misma Wi-Fi; permite HundoHunter en el firewall (redes privadas). |
+| No aparecen publicaciones en Discord | Usa <b>Enviar prueba</b> en Ajustes; comprueba que la URL del webhook esté completa y que el canal exista. |
 
 ## 💝 Apoya HundoHunter
 
-<p align="center"><img src="docs/hundos/idol_head.svg" height="56"></p>
+<p align="center"><img src="docs/hundos/idol_head.png" height="56"></p>
 
 HundoHunter es gratis y está hecho con cariño. Si te ayudó a completar un hundo, ¡puedes invitar a las Hundos a un dulce! Cada aporte trae nuevos temas, funciones y Hundos.
 
@@ -209,13 +274,31 @@ HundoHunter es gratis y está hecho con cariño. Si te ayudó a completar un hun
   <a href="https://buymeacoffee.com/HundoHunter"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-%F0%9F%92%96-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee"></a>
 </p>
 
+<details>
+<summary><b>Antes: lo que llegó en v4.1</b></summary>
+
+- **La ventana grande** (`Ctrl` + `Shift` + `A`): todos tus juegos y logros lado a lado, con filtros, orden, guías, notas y amigos. La búsqueda encuentra cualquier juego que tengas, incluso los que nunca abriste, y perdona las erratas.
+- **Listas de seguimiento**: reúne logros de cualquier juego en listas con nombre. El HUD pequeño muestra la lista que elijas.
+- **Ruta al 100 %**: la IA divide los logros de un juego en etapas lógicas, primero los que se pueden perder y al final el farmeo.
+- **Pestaña de amigos**: clasificación por juego, "ellos lo tienen y tú no", quién consiguió qué y cuándo, y un aviso cuando un amigo te adelanta.
+- **Estadísticas y resumen de sesión**: totales, racha y gráfico mensual, y una tarjeta breve después de cada sesión de juego.
+- **Tarjeta para compartir**: una imagen de progreso de 1200×630 con los colores de tu tema y la captura tomada en el momento del logro.
+- **Modo streamer**: una página de overlay transparente para OBS / Streamlabs (fuente de navegador).
+- **Estado en Discord**, **mostrar/ocultar con mando** (Xbox, PlayStation, Steam Deck; Windows y Linux) y soporte para el **Modo Juego de Steam Deck**.
+- **Descripciones de logros ocultos** tomadas de los datos de Steam, que siguen borrosas hasta que las pidas.
+- **Actualización con un clic**, verificada con SHA256, y un botón para **informar de errores** que oculta tus claves e ID.
+- **4 idiomas nuevos**: Português (BR), Polski, 한국어 e Italiano (12 en total).
+- **32 temas**, 8 de ellos nuevos: Cristal, Océano profundo, Galaxia, Atardecer, Lluvia en el cristal, Mármol y oro, Terminal, Estambul (Bósforo). Todos los temas se redibujaron y las animaciones son más fluidas y ligeras.
+
+</details>
+
 ## 📜 Aviso legal y créditos
 
 HundoHunter es un proyecto de fans independiente y **no está afiliado a Valve Corporation ni a Steam**. Steam y el logotipo de Steam son marcas comerciales de Valve Corporation. Los datos de juegos y logros vienen de la Steam Web API.
 
-Las Hundos y todo el arte de los temas son dibujos vectoriales originales hechos para HundoHunter. Fuente "Press Start 2P" de CodeMan38, SIL Open Font License 1.1. Fuente "Mr Dafoe" de Alejandro Paul (Sudtipos), SIL Open Font License 1.1. Iconos de Material Design Icons de Pictogrammers, Apache License 2.0.
+Las Hundos y todo el arte de los temas son dibujos vectoriales originales hechos para HundoHunter. Fuente "Press Start 2P" de CodeMan38, SIL Open Font License 1.1. Fuente "Mr Dafoe" de Alejandro Paul (Sudtipos), SIL Open Font License 1.1. Iconos de Material Design Icons de Pictogrammers, Apache License 2.0. Los tres temas pixel son pixel art original dibujado para HundoHunter.
 
 <p align="center">
   Hecho con 💖 por <b>Wavemint</b><br>
-  <img src="docs/hundos/neko_head.svg" height="40"><img src="docs/hundos/moon_head.svg" height="40"><img src="docs/hundos/idol_head.svg" height="40"><img src="docs/hundos/goth_head.svg" height="40">
+  <img src="docs/hundos/neko_head.png" height="40"><img src="docs/hundos/moon_head.png" height="40"><img src="docs/hundos/idol_head.png" height="40"><img src="docs/hundos/goth_head.png" height="40"><img src="docs/hundos/bat_head.png" height="40"><img src="docs/hundos/cloud_head.png" height="40">
 </p>
